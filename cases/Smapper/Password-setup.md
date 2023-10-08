@@ -46,6 +46,8 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
 #### Test Case ID: Password-02
 
 **Description:** First password field is empty
@@ -65,6 +67,8 @@ _____
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
+
+---
 
 #### Test Case ID: Password-03
 
@@ -86,6 +90,8 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
 #### Test Case ID: Password-04
 
 **Description:** Both passwords match
@@ -106,6 +112,8 @@ _____
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
+
+---
 
 #### Test Case ID: Password-05
 

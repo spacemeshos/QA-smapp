@@ -43,6 +43,8 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
 #### Test Case ID: ChangePassword-02
 
 **Description:** Current password is incorrect
@@ -67,6 +69,8 @@ _____
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
+
+---
 
 #### Test Case ID: ChangePassword-03
 
@@ -93,6 +97,8 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
 #### Test Case ID: ChangePassword-04
 
 **Description:** Correct current password, matching new and verify password fields
@@ -117,6 +123,8 @@ _____
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
+
+---
 
 #### Test Case ID: ChangePassword-05
 

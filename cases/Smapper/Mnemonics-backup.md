@@ -58,6 +58,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 02
 
 **Description:** Verify Backup Words Count.
@@ -75,6 +76,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 03
 
 **Description:** Verify Word Validity.
@@ -92,6 +94,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 04
 
 **Description:** Verify Word Uniqueness.
@@ -109,6 +112,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 05
 
 **Description:** Verify Word Order Randomization.
@@ -126,6 +130,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 06
 
 **Description:** Verify Backup Security.
@@ -143,6 +148,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 07
 
 **Description:** Verify Backup Recovery.
@@ -161,6 +167,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 08
 
 **Description:** Verify Error Handling - No Backup Created.
@@ -179,6 +186,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 09
 
 **Description:** Verify Error Handling - Insufficient Words.
@@ -197,6 +205,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 10
 
 **Description:** Verify Backup Validation - Incorrect Words.
@@ -215,6 +224,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 11
 
 **Description:** Verify Backup Export/Import.
@@ -233,6 +243,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 12
 
 **Description:** Verify Backup Recovery - Case Insensitivity.
@@ -251,6 +262,7 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 13
 
 **Description:** Verify Backup Recovery - Leading/Trailing Whitespace.

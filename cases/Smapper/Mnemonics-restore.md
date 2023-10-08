@@ -10,21 +10,21 @@
 
 **Test Cases:** 
 
-[]() - Verify Successful Wallet Recovery Using 12 Words Backup.
+[01]() - Verify Successful Wallet Recovery Using 12 Words Backup.
 
-[]() - Verify Error Handling - Invalid 12 Words.
+[02]() - Verify Error Handling - Invalid 12 Words.
 
-[]() - Verify Error Handling - Empty 12 Words.
+[03]() - Verify Error Handling - Empty 12 Words.
 
-[]() - Verify Error Handling - Case Insensitivity.
+[04]() - Verify Error Handling - Case Insensitivity.
 
-[]() - Verify Error Handling - Leading/Trailing Whitespace.
+[05]() - Verify Error Handling - Leading/Trailing Whitespace.
 
-[]() - Verify Backup Validation - Incorrect Words.
+[06]() - Verify Backup Validation - Incorrect Words.
 
-[]() - Verify Backup Recovery with Different Word Order.
+[07]() - Verify Backup Recovery with Different Word Order.
 
-[]() - Verify Error Handling - Missing Words.
+[08]() - Verify Error Handling - Missing Words.
 
 
 
@@ -36,7 +36,7 @@
 **Steps:**
 
 1. User opens the Spacemesh application.
-2. User selects the "Recover Wallet" option.
+2. User selects the "Recover Wallet using 12 words backup" option.
 3. User enters the 12-word backup.
 4. User confirms the recovery process.
 
@@ -49,6 +49,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 02
 
 **Description:** Verify Error Handling - Invalid 12 Words.
@@ -69,6 +70,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 03
 
 **Description:** Verify Error Handling - Empty 12 Words.
@@ -88,6 +90,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 04
 
 **Description:** Verify Error Handling - Case Insensitivity.
@@ -108,6 +111,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 05
 
 **Description:** Verify Error Handling - Leading/Trailing Whitespace.
@@ -128,6 +132,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 06
 
 **Description:** Verify Backup Validation - Incorrect Words.
@@ -148,6 +153,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 07
 
 **Description:** Verify Backup Recovery with Different Word Order.
@@ -167,6 +173,7 @@
 **Status:** [Pass / Fail]
 
 ---
+
 #### Test Case ID: 08
 
 **Description:** Verify Error Handling - Missing Words.
