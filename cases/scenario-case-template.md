@@ -10,6 +10,10 @@
 
 **Test Cases:** list of all the test cases for this scenario
 
+[01](#test-case-id-01) - test case 1
+
+[02](#test-case-id-02) - test case 2
+
 
 _____
 

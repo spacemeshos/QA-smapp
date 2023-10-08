@@ -1,6 +1,6 @@
 # Test Scenario
 
-#### Unique ID: 
+#### Unique ID: Filerestore
 
 **Description:** restore a wallet using the .json file
 
