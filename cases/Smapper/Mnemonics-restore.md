@@ -40,7 +40,19 @@
 3. User enters the 12-word backup.
 4. User confirms the recovery process.
 
-**Test Data:** Valid 12-word backup.
+**Test Data:** Valid 12-word backup: 
+1. stock
+2. orbit
+3. acquire
+4. such
+5. sure
+6. yard
+7. property
+8. spoon
+9. upgrade
+10. mango
+11. horse
+12. effort
 
 **Expected Result:** The wallet should be successfully recovered using the 12-word backup.
 
@@ -61,7 +73,19 @@
 3. User enters an invalid set of 12 words.
 4. User confirms the recovery process.
 
-**Test Data:** Invalid 12-word backup.
+**Test Data:** Invalid 12-word backup: 
+1. stocks
+2. galaxy
+3. acquires
+4. any
+5. secure
+6. yards
+7. properties
+8. fork
+9. upgrades
+10. mangos
+11. horses
+12. efforts
 
 **Expected Result:** An error message should indicate that the 12-word backup is invalid, and the recovery process should fail.
 
@@ -102,9 +126,21 @@
 3. User enters words with varying cases in the 12-word backup.
 4. User confirms the recovery process.
 
-**Test Data:** 12-word backup with mixed cases.
+**Test Data:** 12-word backup with mixed cases: 
+1. Stock
+2. orbit
+3. acquire
+4. such
+5. sure
+6. YARD
+7. property
+8. spoon
+9. upgrade
+10. mango
+11. horse
+12. eFfOrT
 
-**Expected Result:** The recovery process should be case-insensitive and successful.
+**Expected Result:** The recovery process should be case-sensitive and fail.
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -123,9 +159,21 @@
 3. User enters words with leading/trailing whitespace in the 12-word backup.
 4. User confirms the recovery process.
 
-**Test Data:** 12-word backup with leading/trailing whitespace.
+**Test Data:** 12-word backup with leading/trailing whitespace: 
+1.  stock
+2. orbit 
+3.  acquire
+4. such
+5.  sure
+6. yard
+7. property
+8. spoon
+9. upgrade
+10. mango
+11. horse
+12. effort
 
-**Expected Result:** The recovery process should handle whitespace gracefully and be successful.
+**Expected Result:** The recovery process should fail, smapp should not accept spaces at all.
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -144,7 +192,19 @@
 3. User enters a set of 12 words, including some incorrect ones.
 4. User confirms the recovery process.
 
-**Test Data:** 12-word backup with some incorrect words.
+**Test Data:** 12-word backup with some incorrect words: 
+1. stocks
+2. orbit
+3. acquire
+4. such
+5. sure
+6. yard
+7. property
+8. fork
+9. upgrade
+10. mango
+11. horse
+12. efforts
 
 **Expected Result:** The recovery process should fail with an error message if any of the words are incorrect.
 
@@ -164,9 +224,21 @@
 2. User enters the words in a different order during recovery.
 3. User confirms the recovery process.
 
-**Test Data:** Valid 12-word backup with a different word order.
+**Test Data:** Valid 12-word backup with a different word order:
+1. mango
+2. such
+3. property
+4. orbit
+5. spoon
+6. effort
+7. upgrade
+8. stock
+9. acquire
+10. yard
+11. sure
+12. horse
 
-**Expected Result:** The recovery process should successfully recover the wallet even with a different word order.
+**Expected Result:** The recovery process should fail to recover the wallet.
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -185,7 +257,19 @@
 3. User enters a subset of the 12 words, leaving some out.
 4. User confirms the recovery process.
 
-**Test Data:** Incomplete 12-word backup.
+**Test Data:** Incomplete 12-word backup: 
+1. stock
+2. orbit
+3. 
+4. such
+5. sure
+6. yard
+7. 
+8. spoon
+9. 
+10. mango
+11. horse
+12. effort
 
 **Expected Result:** An error message should indicate that all 12 words are required, and the recovery process should fail.
 
