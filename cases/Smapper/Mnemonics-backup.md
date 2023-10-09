@@ -1,57 +1,52 @@
 # Test Scenario
 
-#### Unique ID: Mnemonics-backup
+#### Unique ID: Create12WordsBackup
 
-**Description:** Creating a Wallet backup using the 12 / 24 words method.
+**Description:** Testing the 12 words backup option for wallet backup in the settings, Wallets section.
 
-**Priority:** 2
+**Priority:** 1
 
-**Prerequisites:** running Smapp, 
+**Prerequisites:** 
+- User should have the Smapp application installed
+- User should have an active wallet
 
-**Test Cases:** 
+**Test Cases:**
 
-[1](#test-case-id-01) - Verify Successful Backup Creation
+[01](#test-case-id-create-12-words-backup-01) - Canceling the backup operation
 
-[2](#test-case-id-02) - Verify Backup Words Count
+[02](#test-case-id-create-12-words-backup-02) - Incorrectly placing 4 words for confirmation
 
-[3](#test-case-id-03) - Verify Word Validity
+[03](#test-case-id-create-12-words-backup-03) - Successfully completing the 12 words backup
 
-[4](#test-case-id-04) - Verify Word Uniqueness
+[04](#test-case-id-create-12-words-backup-04) - Proceeding without saving words
 
-[5](#test-case-id-05) - Verify Word Order Randomization
+[05](#test-case-id-create-12-words-backup-05) - UI and layout validation
 
-[6](#test-case-id-06) - Verify Backup Security
+[06](#test-case-id-create-12-words-backup-06) - Application close or crash during backup
 
-[7](#test-case-id-07) - Verify Backup Recovery
+[07](#test-case-id-create-12-words-backup-07) - Correctness of 12 words
 
-[8](#test-case-id-08) - Verify Error Handling - No Backup Created
-
-[9](#test-case-id-09) - Verify Error Handling - Insufficient Words
-
-[10](#test-case-id-10) - Verify Backup Validation - Incorrect Words
-
-[11](#test-case-id-11) - Verify Backup Export/Import
-
-[12](#test-case-id-12) - Verify Backup Recovery - Case Insensitivity
-
-[13](#test-case-id-13) - Verify Backup Recovery - Leading/Trailing Whitespace
-
+[08](#test-case-id-create-12-words-backup-08) - Uniqueness of the mnemonics
 
 _____
 
+# Test Cases
 
-#### Test Case ID: 01
+#### Test Case ID: Create12WordsBackup-01
 
-**Description:** Verify Successful Backup Creation.
+**Description:** Canceling the backup operation
 
 **Steps:**
+1. Navigate to Settings, then to the "Wallets" section
+2. Click the "Backup Now" button
+3. Choose "12 Words Backup" option
+4. Click "Cancel" at any point before final confirmation
 
-1. User opens the Spacemesh application.
-2. User selects the "Create 12 Words Backup" option.
+**Test Data:** N/A
 
-**Test Data:** None
-
-**Expected Result:** A backup containing 12 words is generated successfully.
+**Expected Result:** 
+- The operation should be canceled
+- User should be taken back to the Wallets section in Settings
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -59,17 +54,26 @@ _____
 
 ---
 
-#### Test Case ID: 02
+#### Test Case ID: Create12WordsBackup-02
 
-**Description:** Verify Backup Words Count.
+**Description:** Incorrectly placing 4 words for confirmation
 
 **Steps:**
+1. Open the Settings screen and go to the Wallets section.
+2. Click on the “Backup Now” button.
+3. See a screen containing 2 buttons: “File Backup” and “12 Words Backup”.
+4. Click on the “12 Words Backup” button.
+5. See the “Your 12 Words Backup” screen displaying my backup words with two buttons to save them: “Print Words” and “Copy Words”.
+6. Choose the most convenient option to keep the words, and click on the “Next” button.
+7. On the next screen, “Confirm Your 12 Words Backup”, drag and drop 4 randomly displayed words to the incorrect places.
+2. Observe the message displayed
 
-1. User creates a backup.
+**Test Data:** Incorrectly placed 4 words
 
-**Test Data:** None
-
-**Expected Result:** There should be exactly 12 words in the backup.
+**Expected Result:** 
+- A red message "That confirmation isn’t correct, please try again." should be displayed
+- The option to "Try Again" should be available
+- The message should be easily readable and noticeable
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -77,17 +81,22 @@ _____
 
 ---
 
-#### Test Case ID: 03
+#### Test Case ID: Create12WordsBackup-03
 
-**Description:** Verify Word Validity.
+**Description:** Successfully completing the 12 words backup
 
 **Steps:**
+1. Follow steps 1-6 from the previous case description
+2. Place the 4 words correctly for confirmation
+3. Click "Done"
 
-1. User creates a backup.
+**Test Data:** Correctly placed 4 words
 
-**Test Data:** None
-
-**Expected Result:** All words should be valid and recognized in the English language.
+**Expected Result:** 
+- A green message saying "All right! Your 12 word backup is confirmed." should be displayed
+- The message should be easily readable and noticeable
+- User should be automatically moved back to the Wallet screen
+- A backup should be succesfully created
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -95,17 +104,18 @@ _____
 
 ---
 
-#### Test Case ID: 04
+#### Test Case ID: Create12WordsBackup-04
 
-**Description:** Verify Word Uniqueness.
+**Description:** Proceeding without saving words
 
 **Steps:**
+1. Follow steps 1-4 from the scenario description
+2. Click "Next" without using the "Copy Words" or "Print Words" buttons.
 
-1. User creates multiple backups.
+**Test Data:** N/A
 
-**Test Data:** None
-
-**Expected Result:** No two backups should have the same set of 12 words.
+**Expected Result:** 
+- User should be able to proceed to the next step with no restraints. 
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -113,17 +123,18 @@ _____
 
 ---
 
-#### Test Case ID: 05
+#### Test Case ID: Create12WordsBackup-05
 
-**Description:** Verify Word Order Randomization.
+**Description:** UI and layout validation
 
 **Steps:**
+1. Follow sall the possible steps of the mnemonics backup creation
+2. Verify all UI elements are appropriately rendered and functioning
 
-1. User creates multiple backups.
+**Test Data:** N/A
 
-**Test Data:** None
-
-**Expected Result:** The order of words should be randomized for each backup.
+**Expected Result:** 
+- All buttons, text fields, and messages should be visible and appropriately rendered
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -131,17 +142,19 @@ _____
 
 ---
 
-#### Test Case ID: 06
+#### Test Case ID: Create12WordsBackup-06
 
-**Description:** Verify Backup Security.
+**Description:** Application close or crash during backup
 
 **Steps:**
+1. Follow steps 1-5 or 6 from the test case [02](#test-case-id-create-12-words-backup-02)
+2. Close the application or simulate a crash
 
-1. User creates a backup.
+**Test Data:** N/A
 
-**Test Data:** None
-
-**Expected Result:** The backup is stored securely and not accessible to unauthorized parties.
+**Expected Result:** 
+- The backup process should not be partially saved, requiring the user to start over
+- The set of the backup words should be the same, with the same order
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -149,18 +162,21 @@ _____
 
 ---
 
-#### Test Case ID: 07
+#### Test Case ID: Create12WordsBackup-07
 
-**Description:** Verify Backup Recovery.
+**Description:** Correctness of 12 words
 
 **Steps:**
+1. Complete all the steps of 12 words backup process
+2. Save the backup words 
+3. Start the process again for the same wallet
+4. Compare the sets of words
 
-1. User creates a backup and saves it securely.
-2. User attempts to recover the wallet using the backup.
+**Test Data:** N/A
 
-**Test Data:** None
-
-**Expected Result:** The wallet should be successfully recovered using the 12-word backup.
+**Expected Result:** 
+- The 12 words should always be the same for a given wallet
+- The order of the words should not change
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -168,114 +184,22 @@ _____
 
 ---
 
-#### Test Case ID: 08
+#### Test Case ID: Create12WordsBackup-08
 
-**Description:** Verify Error Handling - No Backup Created.
+**Description:** Uniqueness of 12 words
 
 **Steps:**
+1. Complete all the steps of 12 words backup process
+2. Save the backup words 
+3. Start the process again for a couple of other wallets
+4. Compare the sets of words
 
-1. User cancels the backup creation process.
-2. User checks if any backup is created.
+**Test Data:** N/A
 
-**Test Data:** None
-
-**Expected Result:** No backup should be generated if the user cancels the process.
+**Expected Result:** 
+- The 12 words should never be the same for more than 1 wallet
 
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
 
----
-
-#### Test Case ID: 09
-
-**Description:** Verify Error Handling - Insufficient Words.
-
-**Steps:**
-
-1. User attempts to create a backup with less than 12 words.
-2. User submits the incomplete backup.
-
-**Test Data:** None
-
-**Expected Result:** An error message should indicate that at least 12 words are required.
-
-**Actual Result:** [Save the actual result here after test execution]
-
-**Status:** [Pass / Fail]
-
----
-
-#### Test Case ID: 10
-
-**Description:** Verify Backup Validation - Incorrect Words.
-
-**Steps:**
-
-1. User enters incorrect words during the backup recovery process.
-2. User attempts to recover the wallet.
-
-**Test Data:** None
-
-**Expected Result:** The recovery process should fail with an error message.
-
-**Actual Result:** [Save the actual result here after test execution]
-
-**Status:** [Pass / Fail]
-
----
-
-#### Test Case ID: 11
-
-**Description:** Verify Backup Export/Import.
-
-**Steps:**
-
-1. User creates a backup and exports it to a file.
-2. User imports the backup from the file.
-
-**Test Data:** None
-
-**Expected Result:** The imported backup should successfully recover the wallet.
-
-**Actual Result:** [Save the actual result here after test execution]
-
-**Status:** [Pass / Fail]
-
----
-
-#### Test Case ID: 12
-
-**Description:** Verify Backup Recovery - Case Insensitivity.
-
-**Steps:**
-
-1. User attempts to recover the wallet with a mix of uppercase and lowercase words.
-2. User enters words with varying cases.
-
-**Test Data:** None
-
-**Expected Result:** The recovery process should be case-insensitive and successful.
-
-**Actual Result:** [Save the actual result here after test execution]
-
-**Status:** [Pass / Fail]
-
----
-
-#### Test Case ID: 13
-
-**Description:** Verify Backup Recovery - Leading/Trailing Whitespace.
-
-**Steps:**
-
-1. User attempts to recover the wallet with words containing leading/trailing whitespace.
-2. User enters words with extra spaces.
-
-**Test Data:** None
-
-**Expected Result:** The recovery process should handle whitespace gracefully and be successful.
-
-**Actual Result:** [Save the actual result here after test execution]
-
-**Status:** [Pass / Fail]
