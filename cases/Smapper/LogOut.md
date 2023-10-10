@@ -18,7 +18,7 @@
 
 [03](#test-case-id-logout-03) - Validate UI and tooltips
 
-[04](#test-case-id-logout-04) - Logout behavior when multiple wallets are logged in
+[04](#test-case-id-logout-04) - Logout behavior when multiple wallets are connected
 
 _____
 
@@ -39,7 +39,7 @@ _____
 **Expected Result:** 
 - Tooltip should display "log out"
 - Upon clicking, the user should be immediately logged out.
-- The node -if running- should run with no interruptions
+- The node -if local node is running- should run with no interruptions
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -99,7 +99,9 @@ _____
 **Test Data:** N/A
 
 **Expected Result:** 
-- Validate if the user is logged out of all wallets
+- Validate if the user can login/logout from different wallets with no issues.
+- The state for each wallet should be correct, no remainings of other wallets.
+- The smeshing process - if set - should not be interrupted, all the details and uptates should be displayed.
 
 
 **Actual Result:** [Save the actual result here after test execution]
