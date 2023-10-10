@@ -4,13 +4,13 @@
 
 **Description:** Testing the "Autostart" feature in Smapp.
 
-**Priority:** 1
+**Priority:** 2
 
 **Prerequisites:** Smapp must be properly installed and operational.
 
 **Test Cases:**
 
-[01](#test-case-id-Autostart-01) - Validate the presence of the "Wallet auto start" option
+[01](#test-case-id-Autostart-01) - Validate the presence of the "autostart" option
 
 [02](#test-case-id-Autostart-02) - Validate the functionality of toggling "ON"
 
@@ -30,7 +30,7 @@ _____
 
 #### Test Case ID: Autostart-01
 
-**Description:** Validate the presence of the "Wallet auto start" option.
+**Description:** Validate the presence of the "autostart" option.
 
 **Steps:**
 
@@ -40,7 +40,7 @@ _____
 
 **Test Data:** None
 
-**Expected Result:** The "Wallet auto start" option should be visible.
+**Expected Result:** The "autostart" option should be visible.
 
 **Actual Result:** [Save the actual result here after test execution]
 
@@ -93,7 +93,7 @@ _____
 **Steps:**
 
 1. Follow Steps 1-3 from Test Case ID: Autostart-01
-2. Toggle the "Wallet auto start" option to "ON"
+2. Toggle the "autostart" option to "ON"
 3. Close Smapp and reopen it
 4. Go back to the Wallet section in settings
 
@@ -114,7 +114,7 @@ _____
 **Steps:**
 
 1. Follow Steps 1-3 from Test Case ID: Autostart-01
-2. Toggle the "Wallet auto start" option to "ON"
+2. Toggle the "autostart" option to "ON"
 
 **Test Data:** None
 
