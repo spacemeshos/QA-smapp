@@ -20,9 +20,9 @@
 
 [05](#test-case-id-Autostart-05) - Validate the system permission dialog (if applicable)
 
-[06](#test-case-id-AutostartFeature-06) - Validate the "Autostart" setting after reinstalling the app
+[06](#test-case-id-Autostart-06) - Validate the "Autostart" setting after reinstalling the app
 
-[07](#test-case-id-AutostartFeature-07) - Validate the "Autostart" setting after updating the app
+[07](#test-case-id-Autostart-07) - Validate the "Autostart" setting after updating the app
 
 _____
 
@@ -126,14 +126,14 @@ _____
 
 ---
 
-#### Test Case ID: AutostartFeature-06
+#### Test Case ID: Autostart-06
 
 **Description:** Validate the "Autostart" setting after reinstalling the app.
 
 **Steps:**
 
 1. Ensure the "Autostart" feature is enabled.
-2. Uninstall Smapp.
+2. Uninstall Smapp. Don't delete any directories manually.
 3. Reinstall Smapp.
 4. Go to settings via the gear wheel icon in the upper right corner.
 5. Navigate to the Wallet section.
@@ -149,7 +149,7 @@ _____
 
 ---
 
-#### Test Case ID: AutostartFeature-07
+#### Test Case ID: Autostart-07
 
 **Description:** Validate the "Autostart" setting after updating the app.
 
