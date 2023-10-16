@@ -260,3 +260,194 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
+#### Test Case ID: SendModule-11
+
+**Description:** Validate that the "Note" field is optional
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Leave the "Note" field empty.
+3. Complete the transaction.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction should complete successfully without requiring a note.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-12
+
+**Description:** Validate clicking "Next" leads to the summary screen
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Fill in all required fields.
+3. Click "Next."
+
+**Test Data:** N/A
+
+**Expected Result:** The summary screen should display, showing details of the impending transaction.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-13
+
+**Description:** Validate the summary screen shows correct transaction details
+
+**Steps:**
+
+1. Navigate to the summary screen.
+2. Verify the details displayed.
+
+**Test Data:** N/A
+
+**Expected Result:** All details should match what was entered in the previous screen.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-14
+
+**Description:** Validate clicking "Send" results in a confirmation message
+
+**Steps:**
+
+1. On the summary screen, click "Send."
+
+**Test Data:** N/A
+
+**Expected Result:** A confirmation message should appear, indicating the transaction has been submitted.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-15
+
+**Description:** Validate the "View transaction" button functionality
+
+**Steps:**
+
+1. Click on the "View transaction" button on the confirmation screen.
+
+**Test Data:** N/A
+
+**Expected Result:** The Transactions log should open, highlighting the recent transaction.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-16
+
+**Description:** Validate the "Done" button functionality
+
+**Steps:**
+
+1. Click on the "Done" button on the confirmation screen.
+
+**Test Data:** N/A
+
+**Expected Result:** The Transaction screen should close, and you should return to the main Wallet page.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-17
+
+**Description:** Validate executed transaction appears in Transactions log
+
+**Steps:**
+
+1. Complete a transaction.
+2. Open the Transactions log.
+
+**Test Data:** N/A
+
+**Expected Result:** The recent transaction should appear in the Transactions log.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-18
+
+**Description:** Validate "Cost" affects time for transaction to be applied
+
+**Steps:**
+
+1. Complete a transaction with a low "Cost" setting.
+2. Complete another transaction with a high "Cost" setting.
+3. Observe the time it takes for each to be applied.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction with the higher "Cost" setting should be applied more quickly than the one with the lower setting.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-19
+
+**Description:** Validate wallet balance is updated correctly
+
+**Steps:**
+
+1. Complete a transaction.
+2. Return to the Wallet screen.
+
+**Test Data:** N/A
+
+**Expected Result:** The Wallet balance should be updated correctly, reflecting the recent transaction.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-20
+
+**Description:** Validate the "Note" in transaction details in Transactions log
+
+**Steps:**
+
+1. Complete a transaction with a note.
+2. View the transaction in the Transactions log.
+
+**Test Data:** Any text string for the "Note"
+
+**Expected Result:** The note should appear in the details of the transaction within the Transactions log.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+
