@@ -164,3 +164,99 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
+#### Test Case ID: SendModule-06
+
+**Description:** Validate the "Amount" field for amounts greater than current balance
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Enter an amount greater than the current balance in the "Amount" field.
+
+**Test Data:** Amount greater than current balance
+
+**Expected Result:** The field should display an error message indicating insufficient funds.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-07
+
+**Description:** Validate switching between Smesh and Smidges
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Locate the "Amount" field and the unit switch button.
+3. Switch between Smesh and Smidges.
+
+**Test Data:** N/A
+
+**Expected Result:** The unit should switch and the equivalent value should display correctly.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-08
+
+**Description:** Validate the "Cost" field dropdown
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Click the "Cost" dropdown field.
+
+**Test Data:** N/A
+
+**Expected Result:** The dropdown should display three different options for transaction fees.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-09
+
+**Description:** Validate the effect of different "Cost" on transaction speed
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Complete a transaction with the lowest "Cost" setting.
+3. Complete another transaction with the highest "Cost" setting.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction with the highest "Cost" setting should complete faster than the one with the lowest "Cost" setting.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-10
+
+**Description:** Validate the "Note" field accepts text input
+
+**Steps:**
+
+1. Open the Transaction screen.
+2. Type text into the "Note" field.
+
+**Test Data:** Any text string
+
+**Expected Result:** The "Note" field should accept the text without errors and the note should be visible in the transaction details in the log.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
