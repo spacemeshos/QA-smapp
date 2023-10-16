@@ -1,6 +1,6 @@
 # Test Scenario
 
-#### Unique ID:  SendModule
+#### Unique ID:  Send
 
 **Description:** Testing the "Send" transaction functionality.
 
@@ -11,67 +11,67 @@
 **Test Cases:** 
 
 
-[01](#test-case-id-sendmodule-01) - Validate the "Send" button functionality  
+[01](#test-case-id-Send-01) - Validate the "Send" button functionality  
 
-[02](#test-case-id-sendmodule-02) - Validate the "To" field with correct and existing account addresses  
+[02](#test-case-id-Send-02) - Validate the "To" field with correct and existing account addresses  
 
-[03](#test-case-id-sendmodule-03) - Validate the "To" field with invalid or non-existing account addresses  
+[03](#test-case-id-Send-03) - Validate the "To" field with invalid or non-existing account addresses  
 
-[04](#test-case-id-sendmodule-04) - Validate the auto-population of the "From" field  
+[04](#test-case-id-Send-04) - Validate the auto-population of the "From" field  
 
-[05](#test-case-id-sendmodule-05) - Validate the "Amount" field accepts only numerical input  
+[05](#test-case-id-Send-05) - Validate the "Amount" field accepts only numerical input  
 
-[06](#test-case-id-sendmodule-06) - Validate the "Amount" field for amounts greater than current balance  
+[06](#test-case-id-Send-06) - Validate the "Amount" field for amounts greater than current balance  
 
-[07](#test-case-id-sendmodule-07) - Validate switching between Smesh and Smidges  
+[07](#test-case-id-Send-07) - Validate switching between Smesh and Smidges  
 
-[08](#test-case-id-sendmodule-08) - Validate the "Cost" field dropdown  
+[08](#test-case-id-Send-08) - Validate the "Cost" field dropdown  
 
-[09](#test-case-id-sendmodule-09) - Validate effect of different "Cost" on transaction speed  
+[09](#test-case-id-Send-09) - Validate effect of different "Cost" on transaction speed  
 
-[10](#test-case-id-sendmodule-10) - Validate the "Note" field accepts text input  
+[10](#test-case-id-Send-10) - Validate the "Note" field accepts text input  
 
-[11](#test-case-id-sendmodule-11) - Validate that the "Note" field is optional  
+[11](#test-case-id-Send-11) - Validate that the "Note" field is optional  
 
-[12](#test-case-id-sendmodule-12) - Validate clicking "Next" leads to the summary screen  
+[12](#test-case-id-Send-12) - Validate clicking "Next" leads to the summary screen  
 
-[13](#test-case-id-sendmodule-13) - Validate the summary screen shows correct transaction details  
+[13](#test-case-id-Send-13) - Validate the summary screen shows correct transaction details  
 
-[14](#test-case-id-sendmodule-14) - Validate clicking "Send" results in a confirmation message  
+[14](#test-case-id-Send-14) - Validate clicking "Send" results in a confirmation message  
 
-[15](#test-case-id-sendmodule-15) - Validate the "View transaction" button functionality  
+[15](#test-case-id-Send-15) - Validate the "View transaction" button functionality  
 
-[16](#test-case-id-sendmodule-16) - Validate the "Done" button functionality  
+[16](#test-case-id-Send-16) - Validate the "Done" button functionality  
 
-[17](#test-case-id-sendmodule-17) - Validate executed transaction appears in Transactions log  
+[17](#test-case-id-Send-17) - Validate executed transaction appears in Transactions log  
 
-[18](#test-case-id-sendmodule-18) - Validate "Cost" affects time for transaction to be applied  
+[18](#test-case-id-Send-18) - Validate "Cost" affects time for transaction to be applied  
 
-[19](#test-case-id-sendmodule-19) - Validate wallet balance is updated correctly  
+[19](#test-case-id-Send-19) - Validate wallet balance is updated correctly  
 
-[20](#test-case-id-sendmodule-20) - Validate the "Note" in transaction details in Transactions log  
+[20](#test-case-id-Send-20) - Validate the "Note" in transaction details in Transactions log  
 
-[21](#test-case-id-sendmodule-21) - Validate error handling for network issues  
+[21](#test-case-id-Send-21) - Validate error handling for network issues  
 
-[22](#test-case-id-sendmodule-22) - Validate transaction fees are calculated correctly  
+[22](#test-case-id-Send-22) - Validate transaction fees are calculated correctly  
 
-[23](#test-case-id-sendmodule-23) - Validate security during transaction  
+[23](#test-case-id-Send-23) - Validate security during transaction  
 
-[24](#test-case-id-sendmodule-24) - Validate transactions are auditable and correctly logged  
+[24](#test-case-id-Send-24) - Validate transactions are auditable and correctly logged  
 
-[25](#test-case-id-sendmodule-25) - Validate UI/UX during transaction process  
+[25](#test-case-id-Send-25) - Validate UI/UX during transaction process  
 
-[26](#test-case-id-sendmodule-26) - Validate resource utilization during transaction  
+[26](#test-case-id-Send-26) - Validate resource utilization during transaction  
 
-[27](#test-case-id-sendmodule-27) - Validate behavior when app is minimized during transaction  
+[27](#test-case-id-Send-27) - Validate behavior when app is minimized during transaction  
 
-[28](#test-case-id-sendmodule-28) - Validate backward compatibility for transactions  
+[28](#test-case-id-Send-28) - Validate transactions (correct) visibility accross different app versions.
 
 _____
 
 # Test Cases
 
-#### Test Case ID: SendModule-01
+#### Test Case ID: Send-01
 
 **Description:** Validate the "Send" button functionality
 
@@ -90,7 +90,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-02
+#### Test Case ID: Send-02
 
 **Description:** Validate the "To" field with correct and existing account addresses
 
@@ -109,7 +109,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-03
+#### Test Case ID: Send-03
 
 **Description:** Validate the "To" field with invalid or non-existing account addresses
 
@@ -128,7 +128,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-04
+#### Test Case ID: Send-04
 
 **Description:** Validate the auto-population of the "From" field
 
@@ -146,7 +146,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-05
+#### Test Case ID: Send-05
 
 **Description:** Validate the "Amount" field accepts only numerical input
 
@@ -165,7 +165,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-06
+#### Test Case ID: Send-06
 
 **Description:** Validate the "Amount" field for amounts greater than current balance
 
@@ -184,7 +184,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-07
+#### Test Case ID: Send-07
 
 **Description:** Validate switching between Smesh and Smidges
 
@@ -204,7 +204,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-08
+#### Test Case ID: Send-08
 
 **Description:** Validate the "Cost" field dropdown
 
@@ -223,7 +223,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-09
+#### Test Case ID: Send-09
 
 **Description:** Validate the effect of different "Cost" on transaction speed
 
@@ -243,7 +243,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-10
+#### Test Case ID: Send-10
 
 **Description:** Validate the "Note" field accepts text input
 
@@ -262,7 +262,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-11
+#### Test Case ID: Send-11
 
 **Description:** Validate that the "Note" field is optional
 
@@ -282,7 +282,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-12
+#### Test Case ID: Send-12
 
 **Description:** Validate clicking "Next" leads to the summary screen
 
@@ -302,7 +302,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-13
+#### Test Case ID: Send-13
 
 **Description:** Validate the summary screen shows correct transaction details
 
@@ -321,7 +321,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-14
+#### Test Case ID: Send-14
 
 **Description:** Validate clicking "Send" results in a confirmation message
 
@@ -339,7 +339,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-15
+#### Test Case ID: Send-15
 
 **Description:** Validate the "View transaction" button functionality
 
@@ -357,7 +357,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-16
+#### Test Case ID: Send-16
 
 **Description:** Validate the "Done" button functionality
 
@@ -375,7 +375,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-17
+#### Test Case ID: Send-17
 
 **Description:** Validate executed transaction appears in Transactions log
 
@@ -394,7 +394,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-18
+#### Test Case ID: Send-18
 
 **Description:** Validate "Cost" affects time for transaction to be applied
 
@@ -414,7 +414,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-19
+#### Test Case ID: Send-19
 
 **Description:** Validate wallet balance is updated correctly
 
@@ -433,7 +433,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-20
+#### Test Case ID: Send-20
 
 **Description:** Validate the "Note" in transaction details in Transactions log
 
@@ -452,7 +452,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-21
+#### Test Case ID: Send-21
 
 **Description:** Validate error handling for network issues
 
@@ -471,7 +471,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-22
+#### Test Case ID: Send-22
 
 **Description:** Validate transaction fees are calculated correctly
 
@@ -491,7 +491,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-23
+#### Test Case ID: Send-23
 
 **Description:** Validate security during transaction
 
@@ -510,7 +510,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-24
+#### Test Case ID: Send-24
 
 **Description:** Validate transactions are auditable and correctly logged
 
@@ -529,7 +529,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-25
+#### Test Case ID: Send-25
 
 **Description:** Validate UI/UX during transaction process
 
@@ -548,7 +548,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-26
+#### Test Case ID: Send-26
 
 **Description:** Validate resource utilization during transaction
 
@@ -566,7 +566,7 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-27
+#### Test Case ID: Send-27
 
 **Description:** Validate behavior when the app is minimized during transaction
 
@@ -585,9 +585,9 @@ _____
 
 ---
 
-#### Test Case ID: SendModule-28
+#### Test Case ID: Send-28
 
-**Description:** Validate transactions visibility accross different app versions.
+**Description:** Validate transactions (correct) visibility accross different app versions.
 
 **Steps:**
 
