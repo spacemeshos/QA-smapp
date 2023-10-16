@@ -450,4 +450,156 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
+#### Test Case ID: SendModule-21
+
+**Description:** Validate error handling for network issues
+
+**Steps:**
+
+1. Disable network connectivity.
+2. Attempt to complete a transaction.
+
+**Test Data:** N/A
+
+**Expected Result:** An appropriate error message should be displayed, informing the user that the network is unavailable.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-22
+
+**Description:** Validate transaction fees are calculated correctly
+
+**Steps:**
+
+1. Start a transaction.
+2. Choose different options for "Cost."
+3. Validate the calculated transaction fees.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction fees should be calculated correctly based on the chosen "Cost."
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-23
+
+**Description:** Validate security during transaction
+
+**Steps:**
+
+1. Complete a transaction.
+2. Validate that all sensitive data is encrypted and not exposed in logs or UI.
+
+**Test Data:** N/A
+
+**Expected Result:** Sensitive data should be securely handled and not exposed at any point.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-24
+
+**Description:** Validate transactions are auditable and correctly logged
+
+**Steps:**
+
+1. Complete multiple transactions.
+2. Validate that each transaction is correctly logged for auditing purposes.
+
+**Test Data:** N/A
+
+**Expected Result:** All transactions should be traceable and correctly logged.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-25
+
+**Description:** Validate UI/UX during transaction process
+
+**Steps:**
+
+1. Complete a transaction.
+2. Observe the user interface and experience.
+
+**Test Data:** N/A
+
+**Expected Result:** The UI should be intuitive, and the steps should be clearly communicated to the user.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-26
+
+**Description:** Validate resource utilization during transaction
+
+**Steps:**
+
+1. Monitor CPU, memory, and network usage while completing a transaction.
+
+**Test Data:** N/A
+
+**Expected Result:** Resource utilization should remain within acceptable limits.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-27
+
+**Description:** Validate behavior when the app is minimized during transaction
+
+**Steps:**
+
+1. Start a transaction.
+2. Minimize the app during the transaction process.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction should either pause or continue in the background, based on the designed behavior.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: SendModule-28
+
+**Description:** Validate transactions visibility accross different app versions.
+
+**Steps:**
+
+1. Complete a transaction using an older version of the app.
+2. Validate that the transaction is visible in the tx log with in the newest app version.
+
+**Test Data:** N/A
+
+**Expected Result:** Transactions should be saved and reflected across different versions of the app.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
 
