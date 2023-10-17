@@ -69,6 +69,13 @@
 
 [29](#test-case-id-send-29) - Validate the "Cancel" button during the transaction process
 
+[30](#test-case-id-send-30) - Validate behavior when device goes into sleep mode during a transaction
+
+[31](#test-case-id-send-31) - Validate transaction time-out
+
+[32](#test-case-id-send-32) - Validate data integrity after a failed transaction
+
+
 _____
 
 # Test Cases
@@ -606,7 +613,7 @@ _____
 
 ---
 
-#### Test Case ID: Send-28
+#### Test Case ID: Send-29
 
 **Description:** Validate the "Cancel" button during the transaction process
 
@@ -623,3 +630,60 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
+
+#### Test Case ID: Send-30
+
+**Description:** Validate behavior when device goes into sleep mode during a transaction
+
+**Steps:**
+
+1. Start a transaction.
+2. Allow the device to go into sleep mode.
+
+**Test Data:** N/A
+
+**Expected Result:** The application should either pause the transaction or handle it gracefully, updating the user once the device wakes up.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Send-31
+
+**Description:** Validate transaction time-out
+
+**Steps:**
+
+1. Start a transaction but do not complete it.
+2. Wait for an extended period.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction should time out after a specified time, with a message indicating so.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Send-32
+
+**Description:** Validate data integrity after a failed transaction
+
+**Steps:**
+
+1. Intentionally cause a transaction to fail (e.g., network disconnection).
+2. Check data integrity for the Wallet and Transaction logs.
+
+**Test Data:** N/A
+
+**Expected Result:** All data should remain intact and accurate; no corruption should occur due to the failed transaction.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
