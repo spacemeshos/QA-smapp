@@ -41,8 +41,6 @@ _____
 
 ---
 
-# Test Cases
-
 #### Test Case ID: ModuleToTest-02
 
 **Description:**

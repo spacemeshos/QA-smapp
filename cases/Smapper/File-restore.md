@@ -10,7 +10,7 @@
 
 **Test Cases:** 
 
-### Test Cases for Wallet Restore Process
+### Test Cases:
 
 Restore Wallet from Settings Screen
 
