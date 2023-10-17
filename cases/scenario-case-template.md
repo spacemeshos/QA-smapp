@@ -6,6 +6,8 @@
 
 **Priority:** 1 (highest) - 3 (lowest)
 
+**Dependencies:** Libraries or tools that must be installed (e.g., Selenium)
+
 **Prerequisites:** anything that needs to be in place before running the tests - so that the result may be considered as valid
 
 **Test Cases:** list of all the test cases for this scenario
@@ -23,6 +25,10 @@ _____
 
 **Description:**
 
+**Automated:** Yes/No 
+
+**Priority:** 1 (highest) - 3 (lowest)
+
 **Steps:**
 
 1. 
@@ -38,6 +44,8 @@ _____
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
+
+**Notes:** Any additional notes, references, or reasons for writing the test this way
 
 ---
 
@@ -45,6 +53,10 @@ _____
 
 **Description:**
 
+**Automated:** Yes/No 
+
+**Priority:** 1 (highest) - 3 (lowest)
+
 **Steps:**
 
 1. 
@@ -60,3 +72,5 @@ _____
 **Actual Result:** [Save the actual result here after test execution]
 
 **Status:** [Pass / Fail]
+
+**Notes:** Any additional notes, references, or reasons for writing the test this way
