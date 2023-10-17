@@ -67,6 +67,8 @@
 
 [28](#test-case-id-Send-28) - Validate transactions (correct) visibility accross different app versions.
 
+[29](#test-case-id-send-29) - Validate the "Cancel" button during the transaction process
+
 _____
 
 # Test Cases
@@ -602,4 +604,22 @@ _____
 
 **Status:** [Pass / Fail]
 
+---
+
+#### Test Case ID: Send-28
+
+**Description:** Validate the "Cancel" button during the transaction process
+
+**Steps:**
+
+1. Start a transaction.
+2. Click on the "Cancel" button at any point before confirming the transaction.
+
+**Test Data:** N/A
+
+**Expected Result:** The transaction should be cancelled and you should return to the Wallet screen without any changes being applied.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
 
