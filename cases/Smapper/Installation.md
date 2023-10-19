@@ -12,37 +12,37 @@
 
 [01](#test-case-id-install-01) - Getting the right package
 
-[02]() - Checking the package security - Virustotal scan and checksum verification (currently for go-spacemesh only)
+[02](#test-case-id-install-02) - Checking the package security - Virustotal scan and checksum verification (currently for go-spacemesh only)
 
-[03]() - Default installation process on Mac 
+[03](#test-case-id-install-03) - Default installation process on Mac 
 
-[04]() - Default installation process on Windows
+[04](#test-case-id-install-04) - Default installation process on Windows
 
-[05]() - Default installation process on Linux (AppImage)
+[05](#test-case-id-install-05) - Default installation process on Linux (AppImage)
 
-[06]() - Default installation process on Linux (.deb )
+[06](#test-case-id-install-06) - Default installation process on Linux (.deb )
 
-[07]() - Custom directory on Windows for installation
+[07](#test-case-id-install-07) - Custom directory on Windows for installation
 
-[08]() - Custom permissions on Windows (for other users)
+[08](#test-case-id-install-08) - Custom permissions on Windows (for other users)
 
-[09]() - Getting the unofficial package (prerelease, custom build etc.) and trying to install it on Mac
+[09](#test-case-id-install-09) - Getting the unofficial package (prerelease, custom build etc.) and trying to install it on Mac
 
-[10]() - Getting the unofficial package (prerelease, custom build etc.) and trying to install it on Windows
+[10](#test-case-id-install-10) - Getting the unofficial package (prerelease, custom build etc.) and trying to install it on Windows
 
-[11]() - Getting the unofficial package (prerelease, custom build etc.) and trying to install it on Ubuntu
+[11](#test-case-id-install-11) - Getting the unofficial package (prerelease, custom build etc.) and trying to install it on Ubuntu
 
-[12]() - Installing and running Smapp on Windows without Visual C++ Redistributable
+[12](#test-case-id-install-12) - Installing and running Smapp on Windows without Visual C++ Redistributable
 
-[13]() - Installing and running Smapp on Windows without OpenCl support
+[13](#test-case-id-install-13) - Installing and running Smapp on Windows without OpenCl support
 
-[14]() - Installing and running Smapp on Ubuntu without OpenCl support
+[14](#test-case-id-install-14) - Installing and running Smapp on Ubuntu without OpenCl support
 
-[15]() - Running Smapp via CLI with flags - macOS
+[15](#test-case-id-install-15) - Running Smapp via CLI with flags - macOS
 
-[16]() - Running Smapp via CLI with flags - Windows
+[16](#test-case-id-install-16) - Running Smapp via CLI with flags - Windows
 
-[17]() - Running Smapp via CLI with flags - Ubuntu
+[17](#test-case-id-install-17) - Running Smapp via CLI with flags - Ubuntu
 
 
 
@@ -102,3 +102,377 @@ _____
 **Status:** Pass / Fail
 
 ---
+
+#### Test Case ID: Install-02
+
+**Description:** Verify that the go-spacemesh package is secure using a Virustotal scan and checksum verification.
+
+**Steps:**
+
+1. Download the go-spacemesh package.
+
+2. Upload the package to Virustotal and await the scan results.
+
+3. Compare the package checksum with the published checksum.
+
+**Test Data:** go-spacemesh package
+
+**Expected Result:** 
+
+- Virustotal reports no threats.
+- Checksums match.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-03
+
+**Description:** Verify that Smapp can be installed successfully on a Mac using the default installation process.
+
+**Steps:**
+
+1. Download the Smapp Mac installer.
+
+2. Run the installer.
+
+3. Follow the installation prompts.
+
+**Test Data:** Smapp Mac installer
+
+**Expected Result:** 
+
+- Installation is successful.
+- Smapp launches automatically or manually without errors.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-04
+
+**Description:** Verify that Smapp can be installed successfully on a Windows machine using the default installation process.
+
+**Steps:**
+
+1. Download the Smapp Windows installer.
+
+2. Run the installer.
+
+3. Follow the installation prompts.
+
+**Test Data:** Smapp Windows installer
+
+**Expected Result:** 
+
+- Installation is successful.
+- Smapp launches automatically or manually without errors.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-05
+
+**Description:** Verify that Smapp can be installed successfully on a Linux machine using the AppImage.
+
+**Steps:**
+
+1. Download the Smapp AppImage for Linux.
+
+2. Make the AppImage executable.
+
+3. Run the AppImage.
+
+**Test Data:** Smapp AppImage
+
+**Expected Result:** 
+
+- Installation is successful.
+- Smapp launches automatically or manually without errors.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-06
+
+**Description:** Verify that Smapp can be installed successfully on a Linux machine using the .deb package.
+
+**Steps:**
+
+1. Download the Smapp .deb package for Linux.
+
+2. Install the .deb package using dpkg or apt.
+
+3. Run Smapp.
+
+**Test Data:** Smapp .deb package
+
+**Expected Result:** 
+
+- Installation is successful.
+- Smapp launches automatically or manually without errors.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-07
+
+**Description:** Verify that Smapp can be installed in a custom directory on Windows.
+
+**Steps:**
+
+1. Download the Smapp Windows installer.
+
+2. Run the installer.
+
+3. Choose a custom directory during the installation prompts.
+
+**Test Data:** Smapp Windows installer, Custom directory path
+
+**Expected Result:** 
+
+- Installation is successful in the custom directory.
+- Smapp launches automatically or manually without errors.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-08
+
+**Description:** Verify that Smapp can be installed with custom permissions for other users on Windows.
+
+**Steps:**
+
+1. Download the Smapp Windows installer.
+
+2. Run the installer as an administrator.
+
+3. Set custom permissions during installation.
+
+**Test Data:** Smapp Windows installer, Custom permissions
+
+**Expected Result:** 
+
+- Installation is successful.
+- Permissions are set according to the custom settings.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-09
+
+**Description:** Verify that an unofficial package (prerelease, custom build, etc.) can be installed on a Mac.
+
+**Steps:**
+
+1. Download the unofficial Smapp Mac package.
+
+2. Attempt to install the package.
+
+**Test Data:** Unofficial Smapp Mac package
+
+**Expected Result:** 
+
+- Installation process and result consistent with expectations for an unofficial package - there should be a warning about the missing signature/untrusted authors/potential threat.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-10
+
+**Description:** Verify that an unofficial package (prerelease, custom build, etc.) can be installed on Windows.
+
+**Steps:**
+
+1. Download the unofficial Smapp Windows package.
+
+2. Attempt to install the package.
+
+**Test Data:** Unofficial Smapp Windows package
+
+**Expected Result:** 
+
+- Installation process and result consistent with expectations for an unofficial package - there should be a warning about the missing signature/untrusted authors/potential threat.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-11
+
+**Description:** Verify that an unofficial package (prerelease, custom build, etc.) can be installed on Ubuntu.
+
+**Steps:**
+
+1. Download the unofficial Smapp Ubuntu package.
+
+2. Attempt to install the package.
+
+**Test Data:** Unofficial Smapp Ubuntu package
+
+**Expected Result:** 
+
+- Installation process and result consistent with expectations for an unofficial package.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-12
+
+**Description:** Verify that Smapp can be installed and run on Windows without Visual C++ Redistributable.
+
+**Steps:**
+
+1. Uninstall or ensure Visual C++ Redistributable is not installed.
+
+2. Install and run Smapp.
+
+**Test Data:** Smapp Windows installer
+
+**Expected Result:** 
+
+- Appropriate error messages and node doesn't connect to the network.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-13
+
+**Description:** Verify that Smapp can be installed and run on Windows without OpenCl support.
+
+**Steps:**
+
+1. Uninstall or disable OpenCl.
+
+2. Install and run Smapp.
+
+**Test Data:** Smapp Windows installer
+
+**Expected Result:** 
+
+- Appropriate error messages and node doesn't connect to the network, no way to get the GPU POS provider.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-14
+
+**Description:** Verify that Smapp can be installed and run on Ubuntu without OpenCl support.
+
+**Steps:**
+
+1. Uninstall or disable OpenCl.
+
+2. Install and run Smapp.
+
+**Test Data:** Smapp Ubuntu package
+
+**Expected Result:** 
+
+- Appropriate behavior or error messages when OpenCl support is missing and node doesn't connect to the network, no way to get the GPU POS provider.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-15
+
+**Description:** Verify that Smapp can be run via CLI with flags on macOS.
+
+**Steps:**
+
+1. Open Terminal.
+
+2. Run Smapp with various CLI flags.
+
+**Test Data:** CLI flags
+
+**Expected Result:** 
+
+- Smapp behaves as expected when run with various CLI flags.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-16
+
+**Description:** Verify that Smapp can be run via CLI with flags on Windows.
+
+**Steps:**
+
+1. Open Command Prompt.
+
+2. Run Smapp with various CLI flags.
+
+**Test Data:** CLI flags
+
+**Expected Result:** 
+
+- Smapp behaves as expected when run with various CLI flags.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-17
+
+**Description:** Verify that Smapp can be run via CLI with flags on Ubuntu.
+
+**Steps:**
+
+1. Open Terminal.
+
+2. Run Smapp with various CLI flags.
+
+**Test Data:** CLI flags
+
+**Expected Result:** 
+
+- Smapp behaves as expected when run with various CLI flags.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
