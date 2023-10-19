@@ -44,6 +44,53 @@
 
 [17](#test-case-id-install-17) - Running Smapp via CLI with flags - Ubuntu
 
+[18](#test-case-id-Install-18) - Verify rollback functionality if installation fails on Windows
+
+[19](#test-case-id-Install-19) - Verify rollback functionality if installation fails on Mac
+
+[20](#test-case-id-Install-20) - Verify rollback functionality if installation fails on Linux
+
+[21](#test-case-id-Install-21) - Verify Smapp behavior when disk space is insufficient for installation
+
+[22](#test-case-id-Install-22) - Installation over an older version of Smapp without uninstalling the old version - Windows
+
+[23](#test-case-id-Install-23) - Installation over an older version of Smapp without uninstalling the old version - Mac
+
+[24](#test-case-id-Install-24) - Installation over an older version of Smapp without uninstalling the old version - Linux
+
+[25](#test-case-id-Install-25) - Verify the installer's digital signature on Windows
+
+[26](#test-case-id-Install-26) - Verify the installer's digital signature on Mac
+
+[27](#test-case-id-Install-27) - Verify that Smapp auto-updates to a new version (if applicable)
+
+[28](#test-case-id-Install-28) - Verify Smapp's firewall rules on Windows
+
+[29](#test-case-id-Install-29) - Verify that Smapp doesn't affect system boot time
+
+[30](#test-case-id-Install-30) - Validate Smapp’s data folder structure post-installation
+
+[31](#test-case-id-Install-31) - Verify behavior when trying to install Smapp without admin rights
+
+[32](#test-case-id-Install-32) - Installing Smapp when an antivirus program is running
+
+[33](#test-case-id-Install-33) - Verify (in the tast manager of activity monitor) the processes and resources usage
+
+[34](#test-case-id-Install-34) - Validate that all installation logs are created and stored correctly
+
+[35](#test-case-id-Install-35) - Verify the installation process in different languages (if applicable)
+
+[36](#test-case-id-Install-36) - Verify that all Smapp services start correctly post-installation
+
+[37](#test-case-id-Install-37) - Verify error handling for corrupted installation files
+
+[38](#test-case-id-Install-38) - Verify network configurations - Smapp installation involves internet-based setups
+
+[39](#test-case-id-Install-39) - Verify that Smapp does not overwrite user-customized settings when updating to a newer version
+
+[40](#test-case-id-Install-40) - Verify that Smapp can be successfully uninstalled
+
+
 
 
 
