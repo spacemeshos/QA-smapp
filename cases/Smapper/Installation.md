@@ -62,7 +62,7 @@
 
 [26](#test-case-id-Install-26) - Verify the installer's digital signature on Mac
 
-[27](#test-case-id-Install-27) - Verify that Smapp auto-updates to a new version (if applicable)
+[27](#test-case-id-Install-27) - Verify that Smapp auto-updates to a new version
 
 [28](#test-case-id-Install-28) - Verify Smapp's firewall rules on Windows
 
@@ -74,11 +74,11 @@
 
 [32](#test-case-id-Install-32) - Installing Smapp when an antivirus program is running
 
-[33](#test-case-id-Install-33) - Verify (in the tast manager of activity monitor) the processes and resources usage
+[33](#test-case-id-Install-33) - Verify (in the task manager or activity monitor) the processes and resources usage
 
 [34](#test-case-id-Install-34) - Validate that all installation logs are created and stored correctly
 
-[35](#test-case-id-Install-35) - Verify the installation process in different languages (if applicable)
+[35](#test-case-id-Install-35) - Verify the installation process in different languages (if applicable need to check it actually)
 
 [36](#test-case-id-Install-36) - Verify that all Smapp services start correctly post-installation
 
@@ -516,6 +516,327 @@ _____
 **Expected Result:** 
 
 - Smapp behaves as expected when run with various CLI flags.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-18
+
+**Description:** Verify rollback functionality if installation fails on Windows.
+
+**Steps:**
+
+1. Intentionally corrupt the installation process on Windows.
+
+2. Observe rollback functionality.
+
+**Test Data:** Corrupted Smapp Windows installer
+
+**Expected Result:** 
+
+- Installation should rollback to the previous state.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-19
+
+**Description:** Verify rollback functionality if installation fails on Mac.
+
+**Steps:**
+
+1. Intentionally corrupt the installation process on Mac.
+
+2. Observe rollback functionality.
+
+**Test Data:** Corrupted Smapp Mac installer
+
+**Expected Result:** 
+
+- Installation should rollback to the previous state.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-20
+
+**Description:** Verify rollback functionality if installation fails on Linux.
+
+**Steps:**
+
+1. Intentionally corrupt the installation process on Linux.
+
+2. Observe rollback functionality.
+
+**Test Data:** Corrupted Smapp Linux installer
+
+**Expected Result:** 
+
+- Installation should rollback to the previous state.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-21
+
+**Description:** Verify Smapp behavior when disk space is insufficient for installation.
+
+**Steps:**
+
+1. Fill the disk to near capacity.
+
+2. Attempt to install Smapp.
+
+**Test Data:** Limited disk space
+
+**Expected Result:** 
+
+- Appropriate error message and halting of installation.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-22
+
+**Description:** Installation over an older version of Smapp without uninstalling the old version on Windows.
+
+**Steps:**
+
+1. Install an older version of Smapp.
+
+2. Install the new version without uninstalling the older version.
+
+**Test Data:** Old and new versions of Smapp Windows installer
+
+**Expected Result:** 
+
+- New version should successfully install and replace the old version, retaining settings where applicable.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+ #### Test Case ID: Install-23
+
+**Description:** Installation over an older version of Smapp without uninstalling the old version on Mac.
+
+**Steps:**
+
+1. Install an older version of Smapp.
+2. Install the new version without uninstalling the older version.
+
+**Test Data:** Old and new versions of Smapp Mac installer
+
+**Expected Result:** 
+
+- New version should successfully install and replace the old version, retaining settings where applicable.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-24
+
+**Description:** Installation over an older version of Smapp without uninstalling the old version on Linux.
+
+**Steps:**
+
+1. Install an older version of Smapp.
+2. Install the new version without uninstalling the older version.
+
+**Test Data:** Old and new versions of Smapp Linux installer
+
+**Expected Result:** 
+
+- New version should successfully install and replace the old version, retaining settings where applicable.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-25
+
+**Description:** Verify the installer's digital signature on Windows.
+
+**Steps:**
+
+1. Download the Smapp installer for Windows.
+2. Verify the digital signature.
+
+**Test Data:** Smapp Windows installer
+
+**Expected Result:** 
+
+- The installer should have a valid digital signature.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-26
+
+**Description:** Verify the installer's digital signature on Mac.
+
+**Steps:**
+
+1. Download the Smapp installer for Mac.
+2. Verify the digital signature.
+
+**Test Data:** Smapp Mac installer
+
+**Expected Result:** 
+
+- The installer should have a valid digital signature.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-27
+
+**Description:** Verify that Smapp auto-updates to a new version.
+
+**Steps:**
+
+1. Install an older version of Smapp (signed package).
+2. Check for updates.
+
+**Test Data:** Older version of Smapp
+
+**Expected Result:** 
+
+- Smapp should auto-update to the latest version.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-28
+
+**Description:** Verify Smapp's firewall rules on Windows.
+
+**Steps:**
+
+1. Install Smapp on Windows.
+2. Check the firewall settings related to Smapp.
+
+**Test Data:** Smapp Windows installer
+
+**Expected Result:** 
+
+- Firewall rules should be appropriately set for Smapp to function correctly.
+- There might be a warning about the incoming connections, but no functionality should be blocked by Defender/Firewall
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-29
+
+**Description:** Verify that Smapp doesn't affect system boot time.
+
+**Steps:**
+
+1. Measure system boot time without Smapp installed.
+2. Install Smapp.
+3. Measure system boot time with Smapp installed.
+
+**Test Data:** System boot times
+
+**Expected Result:** 
+
+- System boot time should not be significantly impacted by the installation of Smapp.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-30
+
+**Description:** Validate Smapp’s data folder structure post-installation.
+
+**Steps:**
+
+1. Install Smapp.
+2. Navigate to Smapp’s data directory.
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- Data folder structure should be as expected and contain all necessary files (to be updated with more details)
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-31
+
+**Description:** Verify behavior when trying to install Smapp without admin rights.
+
+**Steps:**
+
+1. Log in to the system as a non-admin user.
+2. Try to install Smapp.
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- Smapp should not require admin rights to be installed
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-32
+
+**Description:** Installing Smapp when an antivirus program is running.
+
+**Steps:**
+
+1. Ensure an antivirus program is active.
+2. Install Smapp.
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- Smapp should install without being flagged or blocked by the antivirus program.
 
 **Actual Result:** [Save the actual result here after test execution]
 
