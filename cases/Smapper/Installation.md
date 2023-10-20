@@ -144,9 +144,6 @@ _____
 - All the links should lead to the latest Smapp release
 - All the packages should be easily and correctly downloaded
 
-**Actual Result:**
-
-**Status:** Pass / Fail
 
 ---
 
