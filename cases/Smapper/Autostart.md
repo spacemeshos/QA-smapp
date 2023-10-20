@@ -54,14 +54,18 @@ _____
 
 1. Follow Steps 1-3 from Test Case ID: Autostart-01
 2. Click “Toggle autostart”
+3. Restart your PC
+4. Ccheck the Smapp status (open or not), and the processes in Task Manager/Activity Monitor
 
 **Test Data:** None
 
-**Expected Result:** The "OFF/ON" part of the settings explanatory phrase should change to "ON".
+**Expected Result:** 
+- The "OFF/ON" part of the settings explanatory phrase should change to "ON".
+- The app should autostart on system startup
+- go-spacemesh and other processes should be launched automatically
 
 
-
----
+--- 
 
 #### Test Case ID: Autostart-03
 
@@ -71,11 +75,14 @@ _____
 
 1. Follow Steps 1-3 from Test Case ID: Autostart-01
 2. If "Toggle autostart" is "ON", click to toggle it "OFF"
-
+3. Restart PC
+4. Check the Smapp status (open or not), and the processes in Task Manager/Activity Monitor
 **Test Data:** None
 
-**Expected Result:** The "OFF/ON" part of the settings explanatory phrase should change to "OFF".
-
+**Expected Result:** 
+- The "OFF/ON" part of the settings explanatory phrase should change to "OFF".
+- The app should NOT autostart on system startup
+- go-spacemesh and other processes should NOT be launched automatically
 
 
 ---
