@@ -60,9 +60,7 @@ _____
 
 **Expected Result:** All steps successfully complete, wallet overview screen opens, and all expected features are operational.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -88,9 +86,7 @@ _____
 
 **Expected Result:** Wallet is created and is functional but lacks a custom name and mnemonics backup.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -109,9 +105,7 @@ _____
 
 **Expected Result:** Wallet is created successfully for both 12 and 24 mnemonic words.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -135,9 +129,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** System either accepts the name or shows an appropriate error message.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -155,9 +147,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** System prevents proceeding and shows an error message.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -174,9 +164,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** The network is connected and synced instantly.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -193,9 +181,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** Transactions can be executed without syncing network data or running a full node.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -212,9 +198,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** An appropriate error message indicating the network issue should be displayed.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -231,9 +215,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** The wallet file should be present at the indicated location and should be accessible.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -250,9 +232,7 @@ see the [Password Setup scenario](cases/Smapper/Password-setup.md)
 
 **Expected Result:** Switching to local node should be successful and operational.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 

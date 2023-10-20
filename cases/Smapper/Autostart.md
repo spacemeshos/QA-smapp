@@ -42,9 +42,7 @@ _____
 
 **Expected Result:** The "autostart" option should be visible.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -61,9 +59,7 @@ _____
 
 **Expected Result:** The "OFF/ON" part of the settings explanatory phrase should change to "ON".
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -80,9 +76,7 @@ _____
 
 **Expected Result:** The "OFF/ON" part of the settings explanatory phrase should change to "OFF".
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -101,9 +95,7 @@ _____
 
 **Expected Result:** The "Wallet auto start" setting should remain "ON" after restarting the application.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -120,9 +112,7 @@ _____
 
 **Expected Result:** A dialog window for system permissions may appear, depending on the system type and preferences.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -143,9 +133,7 @@ _____
 
 **Expected Result:**  The setting state should be kept.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -164,9 +152,7 @@ _____
 
 **Expected Result:** The "Autostart" setting should be retained after updating the app.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 

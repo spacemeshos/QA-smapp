@@ -56,9 +56,7 @@
 
 **Expected Result:** The wallet should be successfully recovered using the 12-word backup.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -89,9 +87,7 @@
 
 **Expected Result:** An error message should indicate that the 12-word backup is invalid, and the recovery process should fail.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -109,9 +105,7 @@
 
 **Expected Result:** An error message should indicate that the 12-word backup cannot be empty, and the recovery process should fail.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -142,9 +136,7 @@
 
 **Expected Result:** The recovery process should be case-sensitive and fail.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -175,9 +167,7 @@
 
 **Expected Result:** The recovery process should fail, smapp should not accept spaces at all.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -208,9 +198,7 @@
 
 **Expected Result:** The recovery process should fail with an error message if any of the words are incorrect.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -240,9 +228,7 @@
 
 **Expected Result:** The recovery process should fail to recover the wallet.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -273,8 +259,6 @@
 
 **Expected Result:** An error message should indicate that all 12 words are required, and the recovery process should fail.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---

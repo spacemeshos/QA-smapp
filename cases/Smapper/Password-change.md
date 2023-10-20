@@ -39,9 +39,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating that fields cannot be empty
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -66,9 +64,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating that the current password is incorrect
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -93,9 +89,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating that the new password and verify password do not match
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -120,9 +114,7 @@ _____
 - User should be able to proceed
 - Password should be successfully changed
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -146,7 +138,5 @@ _____
 - User should be able to cancel the operation
 - No changes should be made to the password
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 

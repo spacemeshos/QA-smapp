@@ -42,9 +42,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating both fields cannot be empty
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -64,9 +62,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating the first password field cannot be empty
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -86,9 +82,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating the second password field cannot be empty
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -109,9 +103,7 @@ _____
 **Expected Result:** 
 - User should be able to proceed to the next step of the wallet creation process
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -133,6 +125,4 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating that the passwords do not match
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]

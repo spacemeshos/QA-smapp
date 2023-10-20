@@ -57,9 +57,7 @@ _____
 
 **Expected Result:** The user should be logged in and directed to their wallet.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -77,9 +75,7 @@ _____
 
 **Expected Result:** An error message in red should appear saying, “Sorry, this password doesn't ring a bell; please try again.”
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -97,9 +93,7 @@ _____
 
 **Expected Result:** The "Submit" button should be disabled or an error message should appear, indicating that the password field cannot be empty.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -117,9 +111,7 @@ _____
 
 **Expected Result:** An error message should appear, indicating that the password is incorrect.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -136,9 +128,7 @@ _____
 
 **Expected Result:** The password should be masked (e.g., displayed as asterisks or dots).
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -156,9 +146,7 @@ _____
 
 **Expected Result:** An error message should appear indicating a network issue, but the user should be able to log in.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -175,9 +163,7 @@ _____
 
 **Expected Result:** User should be able to log in successfully on all tested operating systems.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -195,9 +181,7 @@ _____
 
 **Expected Result:** User should be able to log in successfully and see the interface in the selected language.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -215,9 +199,7 @@ _____
 
 **Expected Result:** The error message should be clear, readable, and informative, such as “Sorry, this password doesn't ring a bell; please try again.”
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -235,9 +217,7 @@ _____
 
 **Expected Result:** All login attempts, both successful and unsuccessful, should be logged with relevant details for auditing.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -255,6 +235,4 @@ _____
 
 **Expected Result:** The "Enter" key should trigger the login process, and the user should be logged in successfully.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]

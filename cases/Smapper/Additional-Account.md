@@ -35,9 +35,7 @@ _____
 - Pop-up window should close
 - No new account should be created
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -58,9 +56,7 @@ _____
 - User should not be able to proceed
 - An error message should be displayed indicating the password is incorrect
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -82,6 +78,4 @@ _____
 - A new account should be visible below the main account in the Accounts section
 - The new account should be selectable in the drop-down list on the left side of the Wallet screen
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]

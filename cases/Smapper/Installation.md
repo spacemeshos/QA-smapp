@@ -169,9 +169,7 @@ _____
 - Virustotal reports no threats.
 - Checksums match.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -194,9 +192,7 @@ _____
 - Installation is successful.
 - Smapp launches automatically or manually without errors.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -219,9 +215,7 @@ _____
 - Installation is successful.
 - Smapp launches automatically or manually without errors.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -244,9 +238,7 @@ _____
 - Installation is successful.
 - Smapp launches automatically or manually without errors.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -269,9 +261,7 @@ _____
 - Installation is successful.
 - Smapp launches automatically or manually without errors.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -294,9 +284,7 @@ _____
 - Installation is successful in the custom directory.
 - Smapp launches automatically or manually without errors.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -319,9 +307,7 @@ _____
 - Installation is successful.
 - Permissions are set according to the custom settings.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -341,9 +327,7 @@ _____
 
 - Installation process and result consistent with expectations for an unofficial package - there should be a warning about the missing signature/untrusted authors/potential threat.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -363,9 +347,7 @@ _____
 
 - Installation process and result consistent with expectations for an unofficial package - there should be a warning about the missing signature/untrusted authors/potential threat.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -385,9 +367,7 @@ _____
 
 - Installation process and result consistent with expectations for an unofficial package.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -407,9 +387,7 @@ _____
 
 - Appropriate error messages and node doesn't connect to the network.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -429,9 +407,7 @@ _____
 
 - Appropriate error messages and node doesn't connect to the network, no way to get the GPU POS provider.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -451,9 +427,7 @@ _____
 
 - Appropriate behavior or error messages when OpenCl support is missing and node doesn't connect to the network, no way to get the GPU POS provider.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -473,9 +447,7 @@ _____
 
 - Smapp behaves as expected when run with various CLI flags.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -495,9 +467,7 @@ _____
 
 - Smapp behaves as expected when run with various CLI flags.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -517,9 +487,7 @@ _____
 
 - Smapp behaves as expected when run with various CLI flags.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -539,9 +507,7 @@ _____
 
 - Installation should rollback to the previous state.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -561,9 +527,7 @@ _____
 
 - Installation should rollback to the previous state.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -583,9 +547,7 @@ _____
 
 - Installation should rollback to the previous state.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -605,9 +567,7 @@ _____
 
 - Appropriate error message and halting of installation.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -627,9 +587,7 @@ _____
 
 - New version should successfully install and replace the old version, retaining settings where applicable.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
  #### Test Case ID: Install-23
@@ -647,9 +605,7 @@ _____
 
 - New version should successfully install and replace the old version, retaining settings where applicable.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -668,9 +624,7 @@ _____
 
 - New version should successfully install and replace the old version, retaining settings where applicable.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -689,9 +643,7 @@ _____
 
 - The installer should have a valid digital signature.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -710,9 +662,7 @@ _____
 
 - The installer should have a valid digital signature.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -731,9 +681,7 @@ _____
 
 - Smapp should auto-update to the latest version.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -753,9 +701,7 @@ _____
 - Firewall rules should be appropriately set for Smapp to function correctly.
 - There might be a warning about the incoming connections, but no functionality should be blocked by Defender/Firewall
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -775,9 +721,7 @@ _____
 
 - System boot time should not be significantly impacted by the installation of Smapp.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -796,9 +740,7 @@ _____
 
 - Data folder structure should be as expected and contain all necessary files (to be updated with more details)
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -817,9 +759,7 @@ _____
 
 - Smapp should not require admin rights to be installed
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -838,9 +778,7 @@ _____
 
 - Smapp should install without being flagged or blocked by the antivirus program.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -860,9 +798,7 @@ _____
 
 - Installation should resume or give an appropriate error message.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -881,9 +817,7 @@ _____
 
 - All installation logs should be correctly created and stored in the designated folder.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -903,9 +837,7 @@ _____
 
 - (I need to check the installers, smapp does not supports multilang in general)
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -924,9 +856,7 @@ _____
 
 - All Smapp services should start correctly and be running post-installation (including go-sm for the local node)
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -945,9 +875,7 @@ _____
 
 - The installation should fail with an appropriate error message.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -966,9 +894,7 @@ _____
 
 - tbu
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -989,9 +915,7 @@ _____
 - User-customized settings should not be overwritten when updating to a newer version.
 - The same for custom config file, old log files etc.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -1010,8 +934,6 @@ _____
 
 - Smapp should be successfully uninstalled without leaving any residues.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 

@@ -93,9 +93,7 @@ _____
 
 **Expected Result:** The Transaction screen should open.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -112,9 +110,7 @@ _____
 
 **Expected Result:** The "To" field should accept the address without errors.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -131,9 +127,7 @@ _____
 
 **Expected Result:** The "To" field should display an error message.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -149,9 +143,7 @@ _____
 
 **Expected Result:** The "From" field should automatically populate with the sender's account address.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -168,9 +160,7 @@ _____
 
 **Expected Result:** The "Amount" field should not accept any non-numerical input and should display an error message or prevent submission.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -187,9 +177,7 @@ _____
 
 **Expected Result:** The field should display an error message indicating insufficient funds.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -207,9 +195,7 @@ _____
 
 **Expected Result:** The unit should switch and the equivalent value should display correctly.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -226,9 +212,7 @@ _____
 
 **Expected Result:** The dropdown should display three different options for transaction fees.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -246,9 +230,7 @@ _____
 
 **Expected Result:** The transaction with the highest "Cost" setting should complete faster than the one with the lowest "Cost" setting.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -265,9 +247,7 @@ _____
 
 **Expected Result:** The "Note" field should accept the text without errors and the note should be visible in the transaction details in the log.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -285,9 +265,7 @@ _____
 
 **Expected Result:** The transaction should complete successfully without requiring a note.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -305,9 +283,7 @@ _____
 
 **Expected Result:** The summary screen should display, showing details of the impending transaction.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -324,9 +300,7 @@ _____
 
 **Expected Result:** All details should match what was entered in the previous screen.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -342,9 +316,7 @@ _____
 
 **Expected Result:** A confirmation message should appear, indicating the transaction has been submitted.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -360,9 +332,7 @@ _____
 
 **Expected Result:** The Transactions log should open, highlighting the recent transaction.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -378,9 +348,7 @@ _____
 
 **Expected Result:** The Transaction screen should close, and you should return to the main Wallet page.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -397,9 +365,7 @@ _____
 
 **Expected Result:** The recent transaction should appear in the Transactions log.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -417,9 +383,7 @@ _____
 
 **Expected Result:** The transaction with the higher "Cost" setting should be applied more quickly than the one with the lower setting.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -436,9 +400,7 @@ _____
 
 **Expected Result:** The Wallet balance should be updated correctly, reflecting the recent transaction.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -455,9 +417,7 @@ _____
 
 **Expected Result:** The note should appear in the details of the transaction within the Transactions log.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -474,9 +434,7 @@ _____
 
 **Expected Result:** An appropriate error message should be displayed, informing the user that the network is unavailable.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -494,9 +452,7 @@ _____
 
 **Expected Result:** The transaction fees should be calculated correctly based on the chosen "Cost."
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -513,9 +469,7 @@ _____
 
 **Expected Result:** Sensitive data should be securely handled and not exposed at any point.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -532,9 +486,7 @@ _____
 
 **Expected Result:** All transactions should be traceable and correctly logged.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -551,9 +503,7 @@ _____
 
 **Expected Result:** The UI should be intuitive, and the steps should be clearly communicated to the user.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -569,9 +519,7 @@ _____
 
 **Expected Result:** Resource utilization should remain within acceptable limits.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -588,9 +536,7 @@ _____
 
 **Expected Result:** The transaction should either pause or continue in the background, based on the designed behavior.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -607,9 +553,7 @@ _____
 
 **Expected Result:** Transactions should be saved and reflected across different versions of the app.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -626,9 +570,7 @@ _____
 
 **Expected Result:** The transaction should be cancelled and you should return to the Wallet screen without any changes being applied.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -646,9 +588,7 @@ _____
 
 **Expected Result:** The application should either pause the transaction or handle it gracefully, updating the user once the device wakes up.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -665,9 +605,7 @@ _____
 
 **Expected Result:** The transaction should time out after a specified time, with a message indicating so.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -684,6 +622,4 @@ _____
 
 **Expected Result:** All data should remain intact and accurate; no corruption should occur due to the failed transaction.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]

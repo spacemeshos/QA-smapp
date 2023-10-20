@@ -47,9 +47,7 @@ _____
 
 **Expected Result:** The "Spawn" button should be visible and available for a newly created Wallet.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -67,9 +65,7 @@ _____
 
 **Expected Result:** The self-spawn transaction window should appear showing correct Account details and fees options.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -87,9 +83,7 @@ _____
 
 **Expected Result:** The Send SMH option should be unlocked and fully functional.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -107,9 +101,7 @@ _____
 
 **Expected Result:** Proper error messages should be displayed to guide the user.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -127,9 +119,7 @@ _____
 **Test Data:** None
 
 **Expected Result:** The spawn transactions should be applied. The Spawn button should be greyed out during the tx processing. After the tx is submitted, the Spawn button should disappear, we should see the Send button.
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -148,9 +138,7 @@ _____
 
 **Expected Result:** The self-spawn transaction should exist in the transaction log with all details.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -168,9 +156,7 @@ _____
 
 **Expected Result:** All UI/UX elements should be responsive and clear.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -189,9 +175,7 @@ _____
 
 **Expected Result:** The application should display an appropriate error or warning message, the tx should be correctly applied once the Internet connection reestablished and node is synced. The tx should not be applied if the node isn't synced, it should not be frozen in the pending or any other state. 
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -209,9 +193,7 @@ _____
 
 **Expected Result:** CPU and memory utilization should remain within acceptable limits.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -230,9 +212,7 @@ _____
 
 **Expected Result:** All actions should be correctly logged for auditing purposes.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 

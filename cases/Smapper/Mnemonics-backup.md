@@ -48,9 +48,7 @@ _____
 - The operation should be canceled
 - User should be taken back to the Wallets section in Settings
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -75,9 +73,7 @@ _____
 - The option to "Try Again" should be available
 - The message should be easily readable and noticeable
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -98,9 +94,7 @@ _____
 - User should be automatically moved back to the Wallet screen
 - A backup should be succesfully created
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -117,9 +111,7 @@ _____
 **Expected Result:** 
 - User should be able to proceed to the next step with no restraints. 
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -136,9 +128,7 @@ _____
 **Expected Result:** 
 - All buttons, text fields, and messages should be visible and appropriately rendered
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -156,9 +146,7 @@ _____
 - The backup process should not be partially saved, requiring the user to start over
 - The set of the backup words should be the same, with the same order
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -178,9 +166,7 @@ _____
 - The 12 words should always be the same for a given wallet
 - The order of the words should not change
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -199,7 +185,5 @@ _____
 **Expected Result:** 
 - The 12 words should never be the same for more than 1 wallet
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 

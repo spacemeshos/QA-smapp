@@ -41,9 +41,7 @@ _____
 - Upon clicking, the user should be immediately logged out.
 - The node -if local node is running- should run with no interruptions
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -62,9 +60,7 @@ _____
 **Expected Result:** 
 - Upon clicking the “Logout” button, the user should be immediately logged out.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -81,9 +77,7 @@ _____
 **Expected Result:** 
 - Tooltips should be correct and informative.
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 ---
 
@@ -104,6 +98,4 @@ _____
 - The smeshing process - if set - should not be interrupted, all the details and uptates should be displayed.
 
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
