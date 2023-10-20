@@ -74,7 +74,7 @@
 
 [32](#test-case-id-Install-32) - Installing Smapp when an antivirus program is running
 
-[33](#test-case-id-Install-33) - Verify (in the task manager or activity monitor) the processes and resources usage
+[33](#test-case-id-Install-33) - Verify Smapp's behavior when the system goes into sleep mode during installation.
 
 [34](#test-case-id-Install-34) - Validate that all installation logs are created and stored correctly
 
@@ -843,4 +843,175 @@ _____
 **Status:** [Pass / Fail]
 
 ---
+
+#### Test Case ID: Install-33
+
+**Description:** Verify Smapp's behavior when the system goes into sleep mode during installation one all 3 OSes.
+
+**Steps:**
+
+1. Start Smapp installation on Windows.
+2. Put the system into sleep mode during installation.
+3. Wake up the system and check the installation status.
+
+**Test Data:** Smapp installers
+
+**Expected Result:** 
+
+- Installation should resume or give an appropriate error message.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-34
+
+**Description:** Validate that all installation logs are created and stored correctly.
+
+**Steps:**
+
+1. Install Smapp.
+2. Locate and review the installation logs.
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- All installation logs should be correctly created and stored in the designated folder.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-35
+
+**Description:** Verify the installation process in different languages (if applicable).
+
+**Steps:**
+
+1. Change the system language.
+2. Install Smapp.
+3. Observe the installation language.
+
+**Test Data:** Different system languages
+
+**Expected Result:** 
+
+- (I need to check the installers, smapp does not supports multilang in general)
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-36
+
+**Description:** Verify that all Smapp services start correctly post-installation.
+
+**Steps:**
+
+1. Install Smapp.
+2. Check in the Activity Monitor or Task Manager that all services related to Smapp are running 
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- All Smapp services should start correctly and be running post-installation (including go-sm for the local node)
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-37
+
+**Description:** Verify error handling for corrupted installation files.
+
+**Steps:**
+
+1. Obtain or create a corrupted Smapp installation file.
+2. Try to install Smapp using the corrupted file.
+
+**Test Data:** Corrupted Smapp installer
+
+**Expected Result:** 
+
+- The installation should fail with an appropriate error message.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-38
+
+**Description:** Verify network configurations - Smapp installation involves internet-based setups.
+
+**Steps:**
+
+1. Install Smapp while observing network activity.
+2. Confirm if any internet-based setups are involved.
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- tbu
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-39
+
+**Description:** Verify that Smapp does not overwrite user-customized settings when updating to a newer version.
+
+**Steps:**
+
+1. Customize settings in an older version of Smapp.
+2. Update Smapp to a newer version.
+3. Check if customized settings remain intact.
+
+**Test Data:** Old and new versions of Smapp
+
+**Expected Result:** 
+
+- User-customized settings should not be overwritten when updating to a newer version.
+- The same for custom config file, old log files etc.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
+---
+
+#### Test Case ID: Install-40
+
+**Description:** Verify that Smapp can be successfully uninstalled.
+
+**Steps:**
+
+1. Install Smapp.
+2. Uninstall Smapp.
+
+**Test Data:** Smapp installer
+
+**Expected Result:** 
+
+- Smapp should be successfully uninstalled without leaving any residues.
+
+**Actual Result:** [Save the actual result here after test execution]
+
+**Status:** [Pass / Fail]
+
 
