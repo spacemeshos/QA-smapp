@@ -101,3 +101,376 @@
 * Smapp is in the local node mode
 
 ---
+
+#### Test Case ID: WalletNodeCreation-02
+
+**Description:** Validate successful wallet creation choosing the 12-word mnemonic security level
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Choose "Standard Wallet"
+5. Choose the network and click "Next"
+6. Choose the 12-word mnemonic security level
+7. Type a password twice
+8. Skip setting the custom name of the Wallet
+9. Skip mnemonic backup setup
+10. Click "Finish"
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* A valid .json wallet file is created in the default Smapp directory
+* Smapp is opened on the wallet overview screen
+* The network is connected and starts syncing
+* Smapp is in the local node mode
+* No issues with the backup process or general wallet use
+
+---
+
+#### Test Case ID: WalletNodeCreation-03
+
+**Description:** Validate successful wallet creation choosing the 24-word mnemonic security level
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Choose "Standard Wallet"
+5. Choose the network and click "Next"
+6. Choose the 24-word mnemonic security level
+7. Type a password twice
+8. Skip setting the custom name of the Wallet
+9. Skip mnemonic backup setup
+10. Click "Finish"
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* A valid .json wallet file is created in the default Smapp directory
+* Smapp is opened on the wallet overview screen
+* The network is connected and starts syncing
+* Smapp is in the local node mode
+* No issues with the backup process or general wallet use
+
+---
+
+#### Test Case ID: WalletNodeCreation-04
+
+**Description:** Validate that typing an incorrect password the second time shows an error
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Type a password in the first field
+5. Type a different password in the second field
+6. Attempt to proceed to the next step
+
+**Test Data:** First password: "password1", Second password: "password2"
+
+**Expected Result:**
+
+* An error message is displayed stating the passwords do not match
+
+---
+
+#### Test Case ID: WalletNodeCreation-05
+
+**Description:** Validate wallet custom name input with valid characters
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter a custom name for the wallet using valid characters (latin letters, numbers, underscore, and hyphen)
+5. Complete the remaining steps to create the wallet
+
+**Test Data:** Wallet name: "My_Wallet-123"
+
+**Expected Result:**
+
+* The custom name is used as the wallet name in the application and as the .json file name
+
+---
+
+#### Test Case ID: WalletNodeCreation-06
+
+**Description:** Validate wallet custom name input with invalid characters
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter a custom name for the wallet using invalid characters (e.g., special characters like @, #, etc.)
+5. Attempt to proceed to the next step
+
+**Test Data:** Wallet name: "My@Wallet#"
+
+**Expected Result:**
+
+* An error message is displayed stating that the characters are invalid
+
+---
+
+#### Test Case ID: WalletNodeCreation-07
+
+**Description:** Validate the wallet custom name maximum character limit
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter a custom name for the wallet with more than 31 characters
+5. Complete the remaining steps to create the wallet
+
+**Test Data:** Wallet name: "MyVeeeryLongWalletNameWith31Chars"
+
+**Expected Result:**
+
+* The custom name with more than 31 characters is not accepted and not used as the wallet name in the application or as the .json file name
+
+---
+
+#### Test Case ID: WalletNodeCreation-08
+
+**Description:** Validate mnemonic backup setup (more on this in the mnemonics test scenarios)
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete all steps up to mnemonic backup
+5. Set up the mnemonics backup by confirming the mnemonics
+6. Complete the wallet creation process
+
+**Test Data:** Mnemonics provided by the app
+
+**Expected Result:**
+
+* The mnemonics are backed up and the wallet is created successfully
+
+---
+
+#### Test Case ID: WalletNodeCreation-09
+
+**Description:** Validate the ability to skip the mnemonic backup setup even if started
+
+**.Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Start the mnemonics backup process
+5. Go back and click the "Skip" button
+6. Complete the wallet creation process
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* The wallet is created successfully without setting up mnemonic backup
+
+---
+
+#### Test Case ID: WalletNodeCreation-10
+
+**Description:** Validate that the correct network is selected and displayed
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Choose the network (e.g., Mainnet, Testnet)
+5. Complete the wallet creation process
+
+**Test Data:** Selected network (Mainnet/Testnet)
+
+**Expected Result:**
+
+* The selected network is displayed and connected (Network screen) )after the wallet is created
+* THis network is set once the wallet is opened, even if we use another wallet with a different network in the same app.
+* The User should be able to switch the network anytime.
+
+---
+
+#### Test Case ID: WalletNodeCreation-11
+
+**Description:** Validate that the wallet overview screen is displayed correctly after successful wallet creation
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete the wallet creation process
+5. Click "Finish"
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* The wallet overview screen is displayed with the correct balance (0SMH), Wallet name (default or custom)
+* there are no GUI or functional issues
+
+---
+
+#### Test Case ID: WalletNodeCreation-12
+
+**Description:** Validate that the .json wallet file is created in the default Smapp (installation) directory
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete the wallet creation process
+5. Click "Finish"
+6. Navigate to the default Smapp directory to check for the .json wallet file
+
+**Test Data:** Default Smapp directory location
+
+**Expected Result:**
+
+* A .json wallet file is present in the default Smapp directory
+
+---
+
+#### Test Case ID: WalletNodeCreation-13
+
+**Description:** Validate that the wallet custom name is used as the .json file name if provided
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter a custom name for the wallet
+5. Complete the wallet creation process
+6. Navigate to the default Smapp directory to check for the .json wallet file
+
+**Test Data:** Wallet name: "My_Custom_Wallet"
+
+**Expected Result:**
+
+* A .json file with the custom name "My_Custom_Wallet(+the defaultopart of the name).json" is present in the default Smapp directory
+
+---
+
+#### Test Case ID: WalletNodeCreation-14
+
+**Description:** Validate that the wallet custom name is displayed correctly in the app
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter a custom name for the wallet
+5. Complete the wallet creation process
+
+**Test Data:** Wallet name: "My_Custom_Wallet"
+
+**Expected Result:**
+
+* The custom name "My_Custom_Wallet" is displayed in the wallet overview screen
+
+---
+
+#### Test Case ID: WalletNodeCreation-15
+
+**Description:** Validate that the network starts syncing after wallet creation
+
+**Steps:**
+
+1. Open Smapp (new node)
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete the wallet creation process
+5. Observe the network status
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* The network is connected and starts syncing (it should not be synced immediately)
+* The go-spacemesh process should be running (Activity monitor/task manager)
+* The resources usage should not bew excessive
+
+---
+
+#### Test Case ID: WalletNodeCreation-16
+
+**Description:** Validate that the application is in local node mode and can set up smeshing
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete the wallet creation process
+5. Go to the Smeshing screen and check if you can set up Smeshing
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* The application is in local node mode and allows for smeshing setup
+
+---
+
+#### Test Case ID: WalletNodeCreation-17
+
+**Description:** Validate the display of confirmation screen with a link to the wallet file location 
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete the wallet creation process
+5. click the wallet location linlk on the confirmation screen
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* A confirmation screen appears displaying a link to the wallet file location
+* The link leads to the correct wallet file
+
+---
+
+#### Test Case ID: WalletNodeCreation-18
+
+**Description:** Validate that the application handles a disconnection from the network during the setup process
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Disconnect the internet during the setup process
+5. Observe the setup process in smapp
+6. Switch the Internet back on
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* An error message is displayed
+* There's not Network available to choose
+* User cannot proceed with the wallet creation
+* After the Internet is back, the User should be able to resume setup process with no issues.
+
+---
