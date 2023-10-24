@@ -46,7 +46,7 @@
 
 [18](#test-case-id-walletnodecreation-18) - Validate that the application handles a disconnection from the network during the setup process
 
-[19](#test-case-id-walletnodecreation-19) - Validate error handling when trying to create a wallet with an already existing name
+[19](#test-case-id-walletnodecreation-19) - Validate trying to create a wallet with an already existing name
 
 [20](#test-case-id-walletnodecreation-20) - Validate wallet creation while the application is undergoing a software update
 
@@ -432,7 +432,7 @@
 
 #### Test Case ID: WalletNodeCreation-17
 
-**Description:** Validate the display of confirmation screen with a link to the wallet file location 
+**Description:** Validate the display of confirmation screen with a link to the wallet file location
 
 **Steps:**
 
@@ -474,3 +474,259 @@
 * After the Internet is back, the User should be able to resume setup process with no issues.
 
 ---
+
+
+#### Test Case ID: WalletNodeCreation-19
+
+**Description:** Validate] trying to create a wallet with an already existing name
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter a custom name that already exists in the app for another wallet
+5. Complete the wallet creation process
+
+**Test Data:** Wallet name: "Existing_Wallet_Name"
+
+**Expected Result:**
+
+* there's no error, User is able to generate many Wallets with the same custom name
+* the .json file wallet name contains a part with a creation date&time
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-20
+
+**Description:** Validate wallet creation while the application is undergoing a software update
+
+**Steps:**
+
+1. Start a software update for Smapp
+2. During the update, attempt to create a new wallet
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* The wallet creation process is either successfully completed or an appropriate error message is displayed
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-21
+
+**Description:** Validate that the "Back" button on each screen returns to the previous step without loss of already entered data
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Enter some data and navigate to the next step
+5. Click the "Back" button
+
+**Test Data:** Any valid wallet creation data
+
+**Expected Result:**
+
+* The application returns to the previous screen and retains all previously entered data
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-22
+
+**Description:** Validate wallet creation on different operating systems (Windows, macOS, Linux)
+
+**Steps:**
+
+1. Open Smapp on Windows
+2. Create a new wallet following the standard procedure
+3. Repeat steps 1 and 2 on macOS and Linux
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* Wallet creation is successful on all three operating systems
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-23
+
+**Description:** Validate UI responsiveness when creating a wallet on various screen resolutions
+
+**Steps:**
+
+1. Change your display settings to a low resolution
+2. Open Smapp
+3. Click "Create"
+4. Choose "Wallet+Node"
+5. Complete the wallet creation process
+6. Repeat the process for medium and high resolutions
+
+**Test Data:** Screen resolutions - low, medium, high
+
+**Expected Result:**
+
+* The UI adapts appropriately to each screen resolution, and the wallet creation process can be completed without issues
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-24
+
+**Description:** Validate that tooltips or help messages are displayed correctly for each option
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Hover over tooltips or click on help icons
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* Tooltips and help messages are displayed correctly and provide relevant information
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-25
+
+**Description:** Validate that all buttons, links, or interactive elements are correct and accessible via keyboard navigation
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Use the keyboard to navigate through all interactive elements
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* All interactive elements are navigable via keyboard and function as expected
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-26
+
+**Description:** Validate that the application logs capture all the relevant information during the wallet creation
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Complete the wallet creation process
+5. Check the application logs
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* All relevant actions and events during wallet creation are logged
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-27
+
+**Description:** Validate that the user can't proceed if the mnemonics are not confirmed correctly (if not skipped)
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. When prompted to confirm mnemonics, enter incorrect mnemonics
+
+**Test Data:** Incorrect mnemonics
+
+**Expected Result:**
+
+* The user is not allowed to proceed and an error message is displayed
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-28
+
+**Description:** Validate that third-party software (like antivirus programs) does not interfere with wallet creation
+
+**Steps:**
+
+1. Install a third-party antivirus program
+2. Open Smapp
+3. Click "Create"
+4. Choose "Wallet+Node"
+5. Complete the wallet creation process
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* Wallet creation is not interfered with by third-party software
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-29
+
+**Description:** Validate wallet creation after a sudden application restart or crash
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Force quit Smapp or induce a crash
+5. Restart Smapp and attempt to resume the wallet creation process
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* An appropriate error message is displayed or the user is allowed to resume wallet creation
+
+
+
+---
+
+#### Test Case ID: WalletNodeCreation-30
+
+**Description:** Validate that an error message is shown if the user tries to proceed without setting a password
+
+**Steps:**
+
+1. Open Smapp
+2. Click "Create"
+3. Choose "Wallet+Node"
+4. Skip the password setup and try to proceed
+
+**Test Data:** N/A
+
+**Expected Result:**
+
+* An error message is displayed, indicating that setting a password is mandatory
+
+
