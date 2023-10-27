@@ -170,5 +170,61 @@
 
 ---
 
+#### Test Case ID: POSdelete-06
+
+**Description:** Confirm that there is a confirmation dialog before the actual deletion of PoS data.
+
+**Steps:**
+
+1. Open the Smapp application.
+2. Navigate to the Smeshing screen.
+3. Click the "Delete Data" button.
+4. Check for the confirmation dialog.
+
+**Test Data:** POS data setup
+
+**Expected Result:** A confirmation dialog is displayed before deleting PoS data.
+
+---
+
+#### Test Case ID: POSdelete-07
+
+**Description:** Verify the behavior when trying to delete PoS data while Smeshing is in an active state.
+
+**Steps:**
+
+1. Open the Smapp application.
+2. Start the Smeshing process.
+3. Navigate to the Smeshing screen.
+4. Click the "Delete Data" button.
+5. Observe the behavior when Smeshing is active.
+
+**Test Data:** None required.
+
+**Expected Result:** The application handles the deletion of PoS data gracefully when Smeshing is active.
+
+---
+
+#### Test Case ID: POSdelete-08
+
+**Description:** Validate the behavior when trying to delete PoS data while Smeshing is in a paused or stopped state.
+
+**Steps:**
+
+1. Open the Smapp application.
+2. Pause or stop the Smeshing process.
+3. Navigate to the Smeshing screen.
+4. Click the "Delete Data" button.
+5. Observe the behavior when Smeshing is paused or stopped.
+
+**Test Data:** None required.
+
+**Expected Result:** The application handles the deletion of PoS data with no issues when Smeshing is paused or stopped.
+
+
+---
+
+
+
 # to be continued....
 
