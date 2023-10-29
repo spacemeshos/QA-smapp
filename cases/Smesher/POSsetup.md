@@ -1,3 +1,18 @@
+# Test Scenario
+
+#### Unique ID: POSsetup
+
+**Description:** Proof of Space setup process general overview. Because of it’s complexity, each step is described in more detail separately. 
+
+**Priority:** 1
+
+**Dependencies:** tbu
+
+**Prerequisites:** latest Smapp installed, min 260GiB free disk space, decent GPU and CPU
+
+**Test Cases:**
+(to be reformatted)
+
 Validate non-empty directory for POS setup
 Validate number of POS files in the directory
 Validate file size of generated POS files
