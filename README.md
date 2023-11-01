@@ -37,7 +37,7 @@ git clone https://github.com/spacemeshos/QA-smapp.git
 * [Password Setup](cases/Smapper/Password-setup.md)
 * [Password Change](cases/Smapper/Password-change.md)
 * [Additional Account](cases/Smapper/Additional-Account.md)
-* [File Backup](cas
+* [File Backup](cases/Smapper/File-backup.md)
 * [File Restore](cases/Smapper/File-restore.md)
 * [Mnemonics Backup](cases/Smapper/Mnemonics-backup.md)
 * [Mnemonics Restore](cases/Smapper/Mnemonics-restore.md)
@@ -52,6 +52,11 @@ To be continued, work in progress...
 * [POS Coinbase](cases/Smesher/POScoinbase.md)
 * [POS Delete](cases/Smesher/POSdelete.md)
 * [POS Directory](cases/Smesher/POSdiectory.md)
+* [POS Processor](cases/Smesher/POSprocessor.md)
+* [POS Setup](cases/Smesher/POSsetupy.md)
+* [POS Size](cases/Smesher/POSsize.md)
+* [POS Summary](cases/Smesher/POSsummary.md)
+* [POS Wallet + Node creation](cases/Smesher/WalletNode.md)
 
 To be continued, work in progress...
 
