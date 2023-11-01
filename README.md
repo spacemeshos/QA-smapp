@@ -28,7 +28,6 @@ git clone https://github.com/spacemeshos/QA-smapp.git
 
 ### Smapper
 
-* 
 * [Installation](cases/Smapper/Installation.md)
 * [Login](cases/Smapper/Login.md)
 * [Log Out](cases/Smapper/LogOut.md)
@@ -63,7 +62,7 @@ To be continued, work in progress...
 
 ## Template
 
-For creating new test scenarios and cases, please use the [Scenario Case Template](cases/scenario-case-template.md).
+For creating new test scenarios and cases, please use the [Scenario & Test Case Template](cases/scenario-case-template.md).
 
 ## Contribution Guidelines
 
