@@ -1,0 +1,14 @@
+- Verify that during POS setup, the coinbase field is automatically populated with the address of the currently logged-in wallet.
+- Check that the populated default coinbase address matches the correct wallet address of the user.
+- Verify the ability to manually type a new valid wallet address into the coinbase field.
+- Test the validation of the coinbase field to ensure incorrect or invalid addresses are not accepted.
+- Verify the dropdown list functionality displays all accounts associated with the current wallet.
+- Test the ability to select an alternative account from the dropdown list to set as the coinbase.
+- Check that upon selecting an account from the dropdown, the coinbase field updates to the chosen address.
+- Test for the persistence of the selected coinbase address in the config file after completing the POS setup.
+- Verify the system behavior when attempting to proceed with an empty coinbase field.
+- Test the functionality to paste a wallet address into the coinbase field and its validation.
+- Verify that changes to the coinbase address are possible after finalizing the POS setup.
+- Check that the coinbase setup step is logged appropriately for audit and troubleshooting purposes.
+- Test the behavior of the setup when copying and pasting addresses with leading or trailing spaces.
+- Ensure that the correct format of wallet addresses is required, including checksum validation, case sensitivity etc.
