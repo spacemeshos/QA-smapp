@@ -2,6 +2,8 @@
 
 This repository contains the Quality Assurance (QA) assets for the Smapp application.
 
+_Knowing that there will be huge changes in the GUI, this repo will not be perfectly maintained and docs meticulously prepared. It's more about gathering the core functions testing aspects than official documentation._
+
 Smapp is an Electron-based application designed for managing wallets and facilitating the process of mining Smesh coins.
 
 This repo includes test cases, test scripts, and documentation for testing the application across Windows, macOS, and Linux platforms.
