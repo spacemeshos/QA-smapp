@@ -28,7 +28,7 @@
 
 [09](#test-case-id-POSProcessor-09) - No Processor Detected
 
-[10](#test-case-id-POSProcessor-10) - Multiple Processor Handling
+[10](#test-case-id-POSProcessor-10) - Error Handling for Benchmark Failures
 
 ---
 
@@ -180,5 +180,19 @@
 **Expected Result:** Smapp appropriately notices the absence of OpenCL (error message displayed on the network screen)
 
 ---
+
+#### Test Case ID: POSProcessor-10
+
+**Description:** Test the application's error handling capabilities in case of benchmark failures.
+
+**Steps:**
+
+1. Start POS setup in Smapp.
+2. Induce a failure in the benchmarking process (e.g., by overloading the processor or interrupting the process).
+3. Observe the application's response to the failure.
+
+**Test Data:** Scenarios where the benchmarking process is interrupted or fails.
+
+**Expected Result:** Smapp displays appropriate error messages and offers options to retry or proceed without benchmarking.
 
 ---
