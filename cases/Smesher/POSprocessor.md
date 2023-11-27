@@ -20,7 +20,7 @@
 
 [05](#test-case-id-POSProcessor-05) - Automatic Processor Selection
 
-[06](#test-case-id-POSProcessor-06) - Skipping Benchmark Process
+[06](#test-case-id-POSProcessor-06) - Processor Compatibility with Different OS Versions
 
 [07](#test-case-id-POSProcessor-07) - Summary Screen Display
 
@@ -48,8 +48,6 @@
 
 **Expected Result:** All available processors with OpenCL support are correctly detected and listed.
 
-
-
 ---
 
 #### Test Case ID: POSProcessor-02
@@ -66,7 +64,6 @@
 
 **Expected Result:** Smapp does not show the processors on the POS Setup screen
 
-
 ---
 
 #### Test Case ID: POSProcessor-03
@@ -82,8 +79,6 @@
 **Test Data:** Systems with various processors.
 
 **Expected Result:** Benchmarking process runs smoothly, providing correct performance data for each processor.
-
-
 
 ---
 
@@ -102,8 +97,6 @@
 
 **Expected Result:** The selected processor is acknowledged, and the user can proceed to the next step.
 
-
-
 ---
 
 #### Test Case ID: POSProcessor-05
@@ -120,26 +113,21 @@
 
 **Expected Result:** The fastest processor is automatically selected when the benchmark is skipped.
 
-
-
 ---
 
 #### Test Case ID: POSProcessor-06
 
-**Description:** Test the functionality of skipping the benchmark process.
+**Description:** Check the compatibility of the POS Processor module with different operating systems.
 
 **Steps:**
 
-1. Start POS setup in Smapp.
-2. Proceed to the processor selection step.
-3. Skip the benchmark process before it completes.
-4. Verify the transition to the next step.
+1. Install Smapp on various operating systems.
+2. Attempt to run POS setup and reach the processor selection step.
+3. Observe processor detection and benchmarking behavior
 
-**Test Data:** User action to skip the benchmarking.
+**Test Data:** different operating systems (e.g., Windows, macOS, Linux).
 
-**Expected Result:** The setup process proceeds to the next step smoothly when the benchmark is skipped.
-
-
+**Expected Result:** POS Processor module functions correctly across different operating systems, with processors properly detected and benchmarked.
 
 ---
 
@@ -159,8 +147,6 @@
 
 **Expected Result:** The summary screen accurately displays the details of the selected processor.
 
-
-
 ---
 
 #### Test Case ID: POSProcessor-08
@@ -177,8 +163,6 @@
 
 **Expected Result:** Accurate and reliable performance data is displayed for each processor.
 
-
-
 ---
 
 #### Test Case ID: POSProcessor-09
@@ -193,26 +177,8 @@
 
 **Test Data:** Systems lacking OpenCL-supported processors.
 
-**Expected Result:** Smapp appropriately indicates the absence of suitable processors and prevents progression to the next setup step.
-
-
+**Expected Result:** Smapp appropriately notices the absence of OpenCL (error message displayed on the network screen)
 
 ---
-
-#### Test Case ID: POSProcessor-10
-
-**Description:** Verify handling of multiple processors in the system.
-
-**Steps:**
-
-1. Start POS setup in Smapp on a system with multiple processors.
-2. Reach the processor selection step.
-3. Check how the application handles multiple processors in terms of display and selection.
-
-**Test Data:** Systems with more than one OpenCL-supported processor.
-
-**Expected Result:** Smapp correctly displays and allows selection among multiple available processors.
-
-
 
 ---
