@@ -41,9 +41,7 @@ _____
 
 **Expected Result:**
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 **Notes:** Any additional notes, references, or reasons for writing the test this way
 
@@ -69,8 +67,6 @@ _____
 
 **Expected Result:**
 
-**Actual Result:** [Save the actual result here after test execution]
 
-**Status:** [Pass / Fail]
 
 **Notes:** Any additional notes, references, or reasons for writing the test this way
