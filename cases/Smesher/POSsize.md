@@ -10,6 +10,8 @@
 
 **Test Cases:** List of all the test cases for this scenario
 
+*POS total size:*
+
 [01](#test-case-id-possize-01) - Validate minimum unit input
 
 [02](#test-case-id-possize-02) - Validate manual input of units
@@ -22,7 +24,45 @@
 
 [06](#test-case-id-possize-06) - Validate input of negative values
 
+*Max File Size:*
 
+[07](#test-case-id-possize-07) - Validate default file size
+
+[08](#test-case-id-possize-08) - Validate input of negative numbers
+
+[09](#test-case-id-possize-09) - Validate warning message for values above 4096 MiB
+
+[10](#test-case-id-possize-10) - Validate input of very low values
+
+[11](#test-case-id-possize-11) - Validate input of non-integer values
+
+[12](#test-case-id-possize-12) - Validate saving of the chosen value in the config
+
+[13](#test-case-id-possize-13) - Validate correct file generation based on input
+
+[14](#test-case-id-possize-14) - Validate input of extremely large values
+
+*POS directory details:*
+
+[16](#test-case-id-possize-16) - Validate display of POS data folder path
+
+[17](#test-case-id-possize-17) - Validate accuracy of free space display
+
+[18](#test-case-id-possize-18) - Validate display after changing POS data folder (edit in the previous steps)
+
+[19](#test-case-id-possize-19) - Validate the response when the POS data folder is edited,  moved or deleted externally.
+
+[20](#test-case-id-possize-20) - Validate response to directory with insufficient space
+
+[21](#test-case-id-possize-21) - Validate response to inaccessible or restricted directory
+
+[22](#test-case-id-possize-22) - Validate refresh of free space display (to implement in Smapp2?)
+
+[23](#test-case-id-possize-23) - Validate display for different file systems
+
+[24](#test-case-id-possize-24) - Test for correct handling of network drives or external storage as the POS data folder. (to implement in Smapp2?)
+
+[25](#test-case-id-possize-25) - Validate the behavior of the POS setup interface upon system resume from sleep or hibernation.
 
 # Test Cases
 
@@ -39,7 +79,6 @@
 
 **Expected Result:** The system should not allow values less than 4 units and should display an appropriate error message.
 
-
 ---
 
 #### Test Case ID: POSSize-02
@@ -54,7 +93,6 @@
 **Test Data:** Various valid unit numbers.
 
 **Expected Result:** The system should accept the manual input of valid unit numbers without error.
-
 
 ---
 
@@ -71,7 +109,6 @@
 
 **Expected Result:** The number of units should increment correctly with each arrow key press.
 
-
 ---
 
 #### Test Case ID: POSSize-04
@@ -86,7 +123,6 @@
 **Test Data:** Use arrow key for decrementing units.
 
 **Expected Result:** The number of units should decrement correctly with each arrow key press but should not go below 4 units.
-
 
 ---
 
@@ -103,7 +139,6 @@
 
 **Expected Result:** The system should restrict non-integer values and display an appropriate error message.
 
-
 ---
 
 #### Test Case ID: POSSize-06
@@ -118,4 +153,3 @@
 **Test Data:** Negative values.
 
 **Expected Result:** The system should not accept negative values and should display an appropriate error message.
-
