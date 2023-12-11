@@ -14,7 +14,7 @@
 
 [02](#test-case-id-POSbenchmark-02) - Manual CPU core selection
 
-[03](#test-case-id-POSbenchmark-03) - Benchmark process initiation once screen opens
+[03](#test-case-id-POSbenchmark-03) - Assess the consistency of the Speed GiB/s calculation across multiple tests
 
 [04](#test-case-id-POSbenchmark-04) - Display of benchmark results in columns
 
@@ -71,16 +71,16 @@
 
 #### Test Case ID: POSbenchmark-03
 
-**Description:** Ensure that the benchmark process starts automatically upon opening the "proving opts" screen.
+**Description:** Assess the consistency of the Speed GiB/s calculation across multiple tests.
 
 **Steps:**
 
-1. Open the "proving opts" screen.
-2. Observe if the benchmark process starts automatically.
+1. Run the benchmark process multiple times under similar conditions.
+2. Compare the Speed GiB/s results across these tests.
 
-**Test Data:** N/A
+**Test Data:** Results from multiple benchmark tests.
 
-**Expected Result:** The benchmark process should start automatically without any user interaction (the screen might freeze for a moment).
+**Expected Result:** The Speed GiB/s results should be consistent across multiple tests under similar conditions.
 
 ---
 
@@ -220,3 +220,20 @@
 **Test Data:** Selected or manually inputted options.
 
 **Expected Result:** Smapp should proceed with the selected options without running the benchmark tests.
+
+---
+
+#### Test Case ID: POSbenchmark-13
+
+**Description:** Validate input field restrictions for CPU Threads and Nonces.
+
+**Steps:**
+
+1. Attempt to enter invalid values in the CPU Threads and Nonces input fields.
+2. Observe the Smapp's response.
+
+**Test Data:** Various invalid input values (like negative numbers, decimals, or excessively high numbers).
+
+**Expected Result:** The system should prevent invalid entries or display an appropriate error/ warning message.(for smapp 2)
+
+---
