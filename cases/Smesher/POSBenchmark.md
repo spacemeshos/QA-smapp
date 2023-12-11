@@ -34,6 +34,8 @@
 
 [12](#test-case-id-POSbenchmark-12) - Skipping tests and proceeding with selected options
 
+[13](#test-case-id-POSbenchmark-13) - Validate input field restrictions for CPU Threads and Nonces.
+
 ---
 
 # Test Cases
