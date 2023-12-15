@@ -10,15 +10,23 @@
 
 **Test Cases:**
 
-* [01](#test-case-id-POScoinbase-01) - Verify auto-population of coinbase field with the address of the currently logged-in wallet.
-* [02](#test-case-id-POScoinbase-02) - Verify the ability to manually type a new valid wallet address into the coinbase field.
-* [03](#test-case-id-POScoinbase-03) - Test validation of the coinbase field for incorrect or invalid addresses.
-* [04](#test-case-id-POScoinbase-04) - Verify dropdown list functionality displaying all accounts associated with the current wallet.
-* [05](#test-case-id-POScoinbase-05) - Check coinbase field updates upon selecting an account from the dropdown.
-* [06](#test-case-id-POScoinbase-06) - Test persistence of the selected coinbase address in the config file after completing the POS setup.
-* [07](#test-case-id-POScoinbase-07) - Verify system behavior when attempting to proceed with an empty coinbase field.
-* [08](#test-case-id-POScoinbase-08) - Check that the coinbase setup step is logged appropriately.
-* [09](#test-case-id-POScoinbase-09) - Test behavior when copying and pasting addresses with leading or trailing spaces.
+[01](#test-case-id-POScoinbase-01) - Verify auto-population of coinbase field with the address of the currently logged-in wallet.
+
+[02](#test-case-id-POScoinbase-02) - Verify the ability to manually type a new valid wallet address into the coinbase field.
+
+[03](#test-case-id-POScoinbase-03) - Test validation of the coinbase field for incorrect or invalid addresses.
+
+[04](#test-case-id-POScoinbase-04) - Verify dropdown list functionality displaying all accounts associated with the current wallet.
+
+[05](#test-case-id-POScoinbase-05) - Check coinbase field updates upon selecting an account from the dropdown.
+
+[06](#test-case-id-POScoinbase-06) - Test persistence of the selected coinbase address in the config file after completing the POS setup.
+
+[07](#test-case-id-POScoinbase-07) - Verify system behavior when attempting to proceed with an empty coinbase field.
+
+[08](#test-case-id-POScoinbase-08) - Check that the coinbase setup step is logged appropriately.
+
+[09](#test-case-id-POScoinbase-09) - Test behavior when copying and pasting addresses with leading or trailing spaces.
 
 ---
 
@@ -53,8 +61,6 @@
 **Expected Result:** The manually entered wallet address should be accepted and displayed in the coinbase field.
 
 ---
-
-
 
 #### Test Case ID: POScoinbase-03
 
@@ -130,7 +136,6 @@
 **Expected Result:** The system should prevent proceeding and display an error message.
 
 ---
-
 
 #### Test Case ID: POScoinbase-08
 
