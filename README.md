@@ -44,27 +44,28 @@ git clone https://github.com/spacemeshos/QA-smapp.git
 * [Mnemonics Restore](cases/Smapper/Mnemonics-restore.md)
 * [Spawn](cases/Smapper/Spawn.md)
 * [Send](cases/Smapper/Send.md)
+* [Export Transactions History](cases/Smapper/ExportTxLog.md)
+* [Offline Modal](cases/Smapper/Offline-modal.md)
 
 To be continued, work in progress...
 
 ### Smesher
 
-* [POS Benchmark](cases/Smesher/POSBenchmark.md)
+* [POS General](cases/Smesher/POS_general.md)
+* [POS Benchmark](cases/Smesher/POSbenchmark.md)
 * [POS Coinbase](cases/Smesher/POScoinbase.md)
 * [POS Delete](cases/Smesher/POSdelete.md)
 * [POS Directory](cases/Smesher/POSdiectory.md)
 * [POS Processor](cases/Smesher/POSprocessor.md)
-* [POS Setup](cases/Smesher/POSsetupy.md)
 * [POS Size](cases/Smesher/POSsize.md)
 * [POS Summary](cases/Smesher/POSsummary.md)
 * [POS Wallet + Node creation](cases/Smesher/WalletNode.md)
 
 To be continued, work in progress...
 
-
 ## Template
 
-For creating new test scenarios and cases, please use the [Scenario & Test Case Template](cases/scenario-case-template.md).
+For creating new test scenarios and cases, please use the [Scenario &amp; Test Case Template](cases/scenario-case-template.md).
 
 ## Contribution Guidelines
 
