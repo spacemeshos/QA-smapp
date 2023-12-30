@@ -45,6 +45,7 @@ git clone https://github.com/spacemeshos/QA-smapp.git
 * [Spawn](cases/Smapper/Spawn.md)
 * [Send](cases/Smapper/Send.md)
 * [Export Transactions History](cases/Smapper/ExportTxLog.md)
+* [Filter Transactions History](cases/Smapper/FilterTxLog.md)
 * [Offline Modal](cases/Smapper/Offline-modal.md)
 
 To be continued, work in progress...
