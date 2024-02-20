@@ -78,7 +78,7 @@
 
 **Test Data:** Systems with various processors.
 
-**Expected Result:** Benchmarking process runs smoothly, providing correct performance data for each processor.
+**Expected Result:** Benchmarking process runs smoothly, providing correct performance data for each processor. (both hashes per second and MiB/s)
 
 ---
 
