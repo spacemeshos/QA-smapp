@@ -8,7 +8,7 @@
 
 ## 2. Functional Requirements
 
-### Core Features:
+### Core Features
 
 * **Wallet Management:** Enable users to send and receive smesh coins, check account balances, and manage multiple accounts within a single wallet.
 * **Transaction History:** Users can view a detailed history of their transactions.
@@ -32,32 +32,33 @@
 * **Dark Mode:** Include a dark mode option to reduce eye strain and improve visibility in low-light conditions.
 * **Cross-Platform Compatibility:** Ensure the wallet's web version is compatible across all major browsers and the desktop version runs smoothly on multiple operating systems (Windows, macOS, Linux).
 * **Explorer Integration:** Integrate with the explorer/ dashboard to provide users with detailed transaction and network information directly within the app.
-* 
+* **Features for tracking and reporting** financial activities for personal record-keeping or tax purposes (exporting TXS log, filtering and sorting, etc)
+* **Sentry reports by users** **and automatic**
 
-### User Roles and Permissions:
+### User Roles and Permissions
 
 * **End-Users:** Can create wallets, execute transactions, and manage their accounts.
 
-### Data Handling:
+### Data Handling
 
 * **Storage:** Securely store wallet information, including private keys and transaction history.
 * **Privacy:** Ensure user data is handled in compliance with privacy regulations.
 
 ## 3. Non-Functional Requirements
 
-### Performance:
+### Performance
 
 * **Responsiveness:** The app should perform actions quickly, with minimal latency.
 * **Scalability:** Capable of handling a growing number of users and transactions.
 
-### Security:
+### Security
 
 * **Encryption:** Use strong encryption methods for data storage and transmission.
 * **Two-Factor Authentication:** Optional additional security layer for accessing wallets.
 
 ## 4. Technical Requirements
 
-### Technology Stack:
+### Technology Stack
 
 * **Frontend:** Technologies suitable for web (and potentially Electron for desktop version) development, such as React.js or Vue.js.
 * **Backend:** Leverage the Spacemesh public API for backend operations. This includes transaction processing, account management, and real-time data fetching. Ensure the app's backend is capable of handling API updates and changes efficiently. (TO BE UPDATED)
@@ -70,22 +71,27 @@
 * **Performance Monitoring:** Use monitoring tools to continuously track the backend's performance, with alerts for any issues that could impact user experience.
 * **Optimization:** Optimize API calls by batching requests, caching and using asynchronous operations where possible.
 
-### Deployment:
+### Deployment
 
 * **Web Application:** Host on a secure, scalable cloud platform.
 * **Desktop Application:** Package using Electron or similar technology for easy installation across different OS.
 
 ## 5. Design Requirements
 
-### User Interface (UI):
+### User Interface (UI)
 
 * **Design:** Clean, user-friendly interface that aligns with Spacemesh branding.
 * **Responsiveness:** Ensure the app is fully responsive and usable across devices.
 
-### User Experience (UX):
+### User Experience (UX)
 
 * **Simplicity:** Streamline user flows to make wallet management intuitive.
 * **Feedback:** Provide real-time feedback for user actions (e.g., transaction confirmation).
+* **Limit the steps and decisions expected from the users wherever possible**
+* **legends and explanations for the statuses, tooltips, help and FAQ sections, and errors explicitly described and preferably pointing at the potential issue.
+  Users need to understand what is happening under the hood**
+* "Coinbase” should probably be changed to something else, it confuses people
+* **Updates information -** notifications and info on what’s new
 
 ## 6. Regulatory and Compliance Requirements
 
