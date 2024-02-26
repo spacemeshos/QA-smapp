@@ -1,4 +1,4 @@
-# Proof of Space Data Generator App Requirements Document
+# Proof of Space Data Generator App Requirements
 
 ## 1. Business Goals and Objectives
 
